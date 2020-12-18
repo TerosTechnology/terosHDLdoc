@@ -11,7 +11,7 @@ Welcome to TerosHDL's documentation!
    :caption: About
    :hidden:
 
-   what_is_terosHDL?
+   about
    installing
    testimonials
 
