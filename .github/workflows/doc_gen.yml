@@ -29,5 +29,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: build html
         run: |
-	  make html
-	  cp -a build/html/. ../docs
+          make html
+          cp -a build/html/. ../docs
