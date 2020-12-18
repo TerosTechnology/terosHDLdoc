@@ -43,6 +43,7 @@ exclude_patterns = []
 html_theme_options = {
     'home_breadcrumbs': False,
     'vcs_pageview_mode': 'blob',
+     "logo_only": True,
 }
 
 html_context = {}
