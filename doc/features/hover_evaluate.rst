@@ -1,14 +1,15 @@
 .. _hover_evaluate:
 
+Hover & evaluate 
+==============
+
 Hover
-==============
-
-Evaluate
-==============
-
-Main Features
 -------------
 
--  Linter support
--  Documentation generators
--  Template generators
+
+Evaluate
+-------------
+
+-  Hexadecimal
+-  Binary
+-  Signed/unsigned

@@ -65,10 +65,10 @@ html_favicon = str(Path(html_logo_path[0]) / "logo.ico")
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 
-html_static_path = ['_static']
-html_css_files = [
-    'custom.css',
-]
+# html_static_path = ['_static']
+# html_css_files = [
+#     'custom.css',
+# ]
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'TerosHDLdoc'
