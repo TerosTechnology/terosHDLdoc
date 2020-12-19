@@ -1,6 +1,6 @@
 .. _sintax_highlighting:
 
-Sintax high lighting
+Sintax highlighting
 ==============
 
 It's an open source IDE for HDL developers
