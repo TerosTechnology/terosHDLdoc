@@ -1,6 +1,6 @@
-.. _about:
+.. _error_checking:
 
-What is TerosHDL?
+Errors checking
 ==============
 
 It's an open source IDE for HDL developers

@@ -1,6 +1,6 @@
-.. _about:
+.. _linters:
 
-What is TerosHDL?
+Linters
 ==============
 
 It's an open source IDE for HDL developers

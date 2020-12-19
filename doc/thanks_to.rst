@@ -1,6 +1,6 @@
-.. _about:
+.. _thanks_to:
 
-What is TerosHDL?
+Thanks to:
 ==============
 
 It's an open source IDE for HDL developers

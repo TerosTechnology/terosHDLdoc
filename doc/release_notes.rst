@@ -1,6 +1,6 @@
-.. _about:
+.. _release_notes:
 
-What is TerosHDL?
+Release notes
 ==============
 
 It's an open source IDE for HDL developers

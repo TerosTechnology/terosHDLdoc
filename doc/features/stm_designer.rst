@@ -1,6 +1,6 @@
-.. _about:
+.. _stm_designer:
 
-What is TerosHDL?
+State machine designer
 ==============
 
 It's an open source IDE for HDL developers

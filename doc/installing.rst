@@ -1,6 +1,6 @@
-.. _about:
+.. _installing:
 
-What is TerosHDL?
+Installing
 ==============
 
 It's an open source IDE for HDL developers

@@ -1,6 +1,6 @@
-.. _about:
+.. _documenter:
 
-What is TerosHDL?
+Documenter
 ==============
 
 It's an open source IDE for HDL developers

@@ -1,7 +1,7 @@
-.. _about:
+.. _testimonials:
 
-What is TerosHDL?
-==============
+Testimonials
+============
 
 It's an open source IDE for HDL developers
 

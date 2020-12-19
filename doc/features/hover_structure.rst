@@ -1,6 +1,6 @@
-.. _about:
+.. _hover_structure:
 
-What is TerosHDL?
+Hover structure
 ==============
 
 It's an open source IDE for HDL developers

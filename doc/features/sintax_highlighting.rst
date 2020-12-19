@@ -1,6 +1,6 @@
-.. _about:
+.. _sintax_highlighting:
 
-What is TerosHDL?
+Sintax high lighting
 ==============
 
 It's an open source IDE for HDL developers

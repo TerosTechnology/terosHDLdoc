@@ -1,6 +1,6 @@
-.. _about:
+.. _template_generator:
 
-What is TerosHDL?
+Template generator
 ==============
 
 It's an open source IDE for HDL developers

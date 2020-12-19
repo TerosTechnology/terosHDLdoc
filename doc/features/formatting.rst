@@ -1,6 +1,6 @@
-.. _about:
+.. _formatting:
 
-What is TerosHDL?
+Code formatting
 ==============
 
 It's an open source IDE for HDL developers

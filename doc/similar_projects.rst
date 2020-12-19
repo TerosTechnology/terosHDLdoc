@@ -1,6 +1,6 @@
-.. _about:
+.. _similar_projects:
 
-What is TerosHDL?
+Similar projects
 ==============
 
 It's an open source IDE for HDL developers

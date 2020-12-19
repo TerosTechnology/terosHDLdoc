@@ -1,6 +1,6 @@
-.. _about:
+.. _dependencies_viewer:
 
-What is TerosHDL?
+Dependencies viewer
 ==============
 
 It's an open source IDE for HDL developers

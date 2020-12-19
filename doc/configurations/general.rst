@@ -1,6 +1,6 @@
-.. _about:
+.. _general:
 
-What is TerosHDL?
+General options
 ==============
 
 It's an open source IDE for HDL developers

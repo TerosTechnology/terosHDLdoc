@@ -1,9 +1,10 @@
-.. _about:
+.. _style_checkimg:
 
-What is TerosHDL?
+VHDL style checking
 ==============
 
-It's an open source IDE for HDL developers
+Verilog style checking
+==============
 
 Main Features
 -------------

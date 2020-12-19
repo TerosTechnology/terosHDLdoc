@@ -1,6 +1,6 @@
-.. _about:
+.. _code_snippets:
 
-What is TerosHDL?
+Code snippets
 ==============
 
 It's an open source IDE for HDL developers

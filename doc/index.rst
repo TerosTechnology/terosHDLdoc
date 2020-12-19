@@ -1,11 +1,9 @@
-.. TerosHDL documentation master file, created by
-   sphinx-quickstart on Fri Dec 18 00:33:50 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. TerosHDL documentation master file
 
 Welcome to TerosHDL's documentation!
 ====================================
 
+Browse our fancy brand new documentation!
 
 .. toctree::
    :caption: About

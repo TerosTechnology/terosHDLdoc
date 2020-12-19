@@ -1,6 +1,6 @@
-.. _about:
+.. _go_to_definition:
 
-What is TerosHDL?
+Go to definition
 ==============
 
 It's an open source IDE for HDL developers

@@ -1,6 +1,6 @@
-.. _about:
+.. _troubleshooting:
 
-What is TerosHDL?
+Troubleshooting
 ==============
 
 It's an open source IDE for HDL developers

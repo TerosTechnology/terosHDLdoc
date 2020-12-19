@@ -1,6 +1,6 @@
-.. _about:
+.. _stm_viewer:
 
-What is TerosHDL?
+State machine viewer
 ==============
 
 It's an open source IDE for HDL developers
