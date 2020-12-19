@@ -43,6 +43,7 @@ exclude_patterns = []
 html_theme_options = {
     'home_breadcrumbs': False,
     'vcs_pageview_mode': 'blob',
+    "style_nav_header_background": "#ff0909",
      "logo_only": True,
 }
 

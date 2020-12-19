@@ -48,12 +48,11 @@ Welcome to TerosHDL's documentation!
    similar_projects
    release_notes
    thanks_to
-   genindex
    
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Indices and tables
+.. ==================
+.. 
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
