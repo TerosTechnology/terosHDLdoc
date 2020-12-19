@@ -1,9 +1,10 @@
-.. _about:
+.. _hover_evaluate:
 
-What is TerosHDL?
+Hover
 ==============
 
-It's an open source IDE for HDL developers
+Evaluate
+==============
 
 Main Features
 -------------

@@ -39,7 +39,7 @@ Browse our fancy brand new documentation!
    features/hover_evaluate
    features/code_snippets
 
-.. toctree::
+.. toctree:: Appendix
    :hidden:
 
    troubleshooting
