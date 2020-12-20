@@ -47,6 +47,7 @@ Browse our fancy brand new documentation!
    similar_projects
    release_notes
    thanks_to
+   future_work
    
 
 .. Indices and tables
