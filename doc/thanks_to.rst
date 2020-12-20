@@ -1,7 +1,7 @@
 .. _thanks_to:
 
-Thanks to:
-==============
+Thanks to
+=========
 
 It's an open source IDE for HDL developers
 

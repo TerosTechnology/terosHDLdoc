@@ -12,18 +12,18 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 Main Features
 -------------
 
--  :ref:`Go to definition <features/go_to_definition>`
--  :ref:`Hover and structure <features/hover_structure>`
--  :ref:`Template generator <features/template_generator>`
--  :ref:`Documenter <features/documenter>`
--  :ref:`Errors checking <features/error_checking>`
--  :ref:`Style checking <features/style_checking>`
--  :ref:`Formatting <features/formatting>`
--  :ref:`State machine viewer <features/stm_viewer>`
--  :ref:`State machine designer <features/stm_designer>`
--  :ref:`Dependencies viewer <features/dependencies_viewer>`
--  :ref:`Hover to evaluate binary, hexadecimal and octal values <features/hover_evaluate>`
--  :ref:`Code snippets and grammar <features/code_snippets>`
+-  :doc:`Go to definition <./features/go_to_definition>`
+-  :doc:`Hover and structure <./features/hover_structure>`
+-  :doc:`Template generator <./features/template_generator>`
+-  :doc:`Documenter <./features/documenter>`
+-  :doc:`Errors checking <./features/error_checking>`
+-  :doc:`Style checking <./features/style_checking>`
+-  :doc:`Formatting <./features/formatting>`
+-  :doc:`State machine viewer <./features/stm_viewer>`
+-  :doc:`State machine designer <./features/stm_designer>`
+-  :doc:`Dependencies viewer <./features/dependencies_viewer>`
+-  :doc:`Hover to evaluate binary, hexadecimal and octal values <./features/hover_evaluate>`
+-  :doc:`Code snippets and grammar <./features/code_snippets>`
 
 
 .. _VSCode plugin: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
