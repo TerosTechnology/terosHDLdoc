@@ -53,7 +53,7 @@ if ctx.is_file():
     html_context.update(loads(ctx.open('r').read()))
 
 html_theme_path = ["."]
-html_theme = "_theme"
+# html_theme = "_theme"
 
 html_logo_path = ["img_logo"]
 

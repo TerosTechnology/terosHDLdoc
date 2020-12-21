@@ -1,14 +1,18 @@
-.. _style_checkimg:
+.. _style_checking:
+
+Style checking
+==============
+
 
 VHDL style checking
-==============
+-------------------
+
+SVG
+~~~
 
 Verilog style checking
-==============
+----------------------
 
-Main Features
--------------
+Verible
+~~~~~~~
 
--  Linter support
--  Documentation generators
--  Template generators
