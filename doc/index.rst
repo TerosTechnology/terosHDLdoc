@@ -1,9 +1,9 @@
-.. TerosHDL documentation master file
+.. TerosHDL documentation index file
 
 Welcome to TerosHDL's documentation!
 ====================================
 
-Browse our fancy brand new documentation!
+Browse our brand new documentation!
 
 .. toctree::
    :caption: About

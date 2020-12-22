@@ -38,13 +38,13 @@ HDL simulator
 
 Linter needs a simulator to work. The currently supported simulators are the following:
 
-   =========   ========
-   Verilog     VHDL     
-   =========   ========
-   ModelSim    ModelSim 
-    Vivado     Vivado   
-    Icarus     GHDL     
+   ==========   ========
+   Verilog/SV     VHDL     
+   ==========   ========
+   ModelSim     ModelSim 
+    Vivado      Vivado   
+    Icarus      GHDL     
    Verilator           
-   =========   ========
+   ==========   ========
 
 To configure the linter visit the :doc:`linter configuration section <./configuration/linters>` 

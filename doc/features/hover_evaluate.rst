@@ -5,11 +5,9 @@ Hover & evaluate
 
 Hover
 -------------
-
+TBD
 
 Evaluate
 -------------
 
--  Hexadecimal
--  Binary
--  Signed/unsigned
+TBD
