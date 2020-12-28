@@ -1,6 +1,8 @@
 .. _go_to_definition:
 
 Go to definition
-==============
+================
 
-TBD
+Jump to the definition with ``Ctrl+Click``
+
+.. image:: images/goto.png

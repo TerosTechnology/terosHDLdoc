@@ -27,16 +27,16 @@ Browse our brand new documentation!
 
    features/sintax_highlighting
    features/go_to_definition
+   features/hover_evaluate
    features/hover_structure
    features/template_generator
    features/documenter
-   features/errors_checking
+   features/error_checking
    features/style_checking
    features/formatting
    features/stm_viewer
    features/stm_designer
    features/dependencies_viewer
-   features/hover_evaluate
    features/code_snippets
 
 .. toctree:: 
