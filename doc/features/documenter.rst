@@ -25,6 +25,8 @@ Example:
     );
     end counter;
 
+Go to the :doc:`documenter configuration section <../configuration/documenter>` for more information.
+
 Wavedrom
 --------
 

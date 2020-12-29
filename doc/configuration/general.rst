@@ -1,7 +1,7 @@
 .. _general:
 
 General options
-==============
+===============
 
 TerosHDL settings
 

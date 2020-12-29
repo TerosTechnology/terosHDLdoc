@@ -2,7 +2,20 @@
 
 Style checking
 ==============
-TBD
+
+WIP: Experimental feature. 
+
+The style checking highlight the style errors.
+
+Supported linters
+
+======= =======
+Verilog VHDL
+======= =======
+Verible SVG
+======= =======
+
+It's necesary to install the Style checking tools manually.
 
 VHDL style checking
 -------------------
