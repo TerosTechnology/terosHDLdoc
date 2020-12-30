@@ -8,7 +8,7 @@ Aditionally it's possible to export the documentation of all the provided files
 along with the dependencies graph and an index linking all the generated documentaion files.
 
 
-.. admonition:: Requirements!
+.. important:: Requirements!
 
 To be able to use this functionality is necesary to have Python3 configured in TerosHDL
 More info in the :doc:`configuration section <../configuration/general>`

@@ -1,7 +1,7 @@
 .. _general:
 
-General options
-===============
+General settings
+================
 
 TerosHDL settings
 
@@ -22,6 +22,14 @@ TBD
 
 Formatter
 ---------
+
+VHDL
+~~~~
+
+TBD
+
+Verilog
+~~~~~~~
 
 TBD
 

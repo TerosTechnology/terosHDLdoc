@@ -1,6 +1,6 @@
 .. _sintax_highlighting:
 
 Sintax highlighting
-==============
+===================
 
-TBD
+TerosHDL provides sintax highlighting for **VHDL, Verilog, System Verilog, UCF, XDC**
