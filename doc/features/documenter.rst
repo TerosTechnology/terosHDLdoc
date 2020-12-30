@@ -42,7 +42,7 @@ Documenting files
 .. image:: images/documenting_files.png
 
 Wavedrom
---------
+~~~~~~~~
 
 TerosHDL supports WaveJSON format in the module description.
 The format describes digital timing diagrams.
@@ -51,7 +51,7 @@ You can learn more about it in the `wavedrom tutorial`_.
 .. image:: images/wavedrom_example.png
 
 Bitfield
---------
+~~~~~~~~
 
 TerosHDL can also parse data descriptions in the same way that wavedrom.
 You can learn more about `bitfield`_.
