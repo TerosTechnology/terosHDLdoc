@@ -18,7 +18,7 @@ But you can configura a custom path if it's not the case in
 Documenter
 ----------
 
-TBD 
+:doc:`Documenter settings <documenter>`  
 
 Formatter
 ---------
@@ -26,12 +26,38 @@ Formatter
 VHDL
 ~~~~
 
-TBD
+For VHDL configurations go to ``Teroshdl › Formatter › VHDL › Type > Standalone`` in the extension settings.
+
+Configurations available:
+
+-  **Align-comments**:
+    Select to align comments.
+-  **Align-function**:
+    Align signs in function.
+-  **Align-generic**
+    Align signs in generic.
+-  **Align-port**
+    Align signs in port.
+-  **Align-procedure**
+    Align signs in procedure.
+-  **Indentation**
+    Add spaces for indentation.
+-  **Keyword-case**
+    Lowercase/Uppercase
+-  **Type-name-case**
+    Lowercase/Uppercase
 
 Verilog
 ~~~~~~~
 
-TBD
+For Verilog the configurations available are the following:
+
+-  **Spaces**:
+    Space per indent.
+-  **Style**:
+    Different styling options.
+
+    .. image:: images/formatter_verilog_istyle.png
 
 Linter
 ------

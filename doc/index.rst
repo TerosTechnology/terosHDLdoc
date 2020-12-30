@@ -12,7 +12,7 @@ Quick links
 -  :doc:`TerosHDL installation <./installing>`
 -  :doc:`TerosHDL settings <./configuration/general>`
 -  :doc:`TerosHDL documenter settings <./configuration/documenter>`
--  :doc:`Linter configuration <./configuration/linter>`
+-  :doc:`Linter configurations <./configuration/linter>`
 
 .. toctree::
    :caption: About

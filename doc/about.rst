@@ -27,5 +27,17 @@ Main Features
 -  :doc:`Netlist viewer <./features/netlist_viewer>`
 
 
+Credits
+-------
+
+- Foundersand main contributors:
+    - `Carlos Alberto Ruiz Naranjo <https://github.com/qarlosalberto>`_
+    - `Ismael Pérez Rojo <https://github.com/smgl9>`_
+    - `Alfredo Sáez <https://github.com/asaezper>`_
+- Contributors:
+    - Sergio Alonso de Santocildes
+    - Carlos Chabert
+    - `Unai Martinez-Corral <https://github.com/umarcor>`_
+
 .. _VSCode plugin: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
 .. _Teros Technology: https://github.com/TerosTechnology

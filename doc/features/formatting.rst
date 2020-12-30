@@ -13,3 +13,14 @@ Verilog VHDL
 ======= ==========
 iStyle  Standalone
 ======= ==========
+
+Check the :doc:`formatter configuration options <../configuration/general>`
+
+Usage instructions
+------------------
+
+1. Open an SV/Verilog/VHDL file.
+
+2.  ``Ctrl+Shift+i`` or click on the buttom with the tick to format the file.
+
+3. Save the file with the new format.
