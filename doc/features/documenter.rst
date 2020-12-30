@@ -28,6 +28,19 @@ Example:
 
 Go to the :doc:`documenter configuration section <../configuration/documenter>` for more information.
 
+Documenting files
+-----------------
+
+**General rules:**
+
+- The comments without the special character will not be part of the generated documentation.
+- The description text and Wavedrom & bitfield diagrams must be described before the module declaration.
+- Multiline comments are allowed in the lines above a declaration.
+- If there are multilines and inline comments. Inline comments have priority.
+- MarkDown are allowed inside the comments. MarkDown tables, links, label or html coded embedded in the comments will be processed by the documenter.
+
+.. image:: images/documenting_files.png
+
 Wavedrom
 --------
 

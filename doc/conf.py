@@ -41,10 +41,11 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 
 html_theme_options = {
+    "analytics_id": "UA-140380699-2",
     'home_breadcrumbs': False,
     'vcs_pageview_mode': 'blob',
     "style_nav_header_background": "#ffffff",
-     "logo_only": True,
+    "logo_only": True,
 }
 
 html_context = {}
