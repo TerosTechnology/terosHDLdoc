@@ -5,6 +5,15 @@ Welcome to TerosHDL's documentation!
 
 Browse our brand new documentation!
 
+Quick links
+-----------
+
+-  :doc:`TerosHDL features <./about>`
+-  :doc:`TerosHDL installation <./installing>`
+-  :doc:`TerosHDL settings <./configuration/general>`
+-  :doc:`TerosHDL documenter settings <./configuration/documenter>`
+-  :doc:`Linter configurations <./configuration/linter>`
+
 .. toctree::
    :caption: About
    :hidden:
@@ -25,18 +34,17 @@ Browse our brand new documentation!
    :caption: Features
    :hidden:
 
-   features/sintax_highlighting
    features/go_to_definition
+   features/hover_evaluate
    features/hover_structure
    features/template_generator
    features/documenter
-   features/errors_checking
+   features/error_checking
    features/style_checking
    features/formatting
    features/stm_viewer
    features/stm_designer
    features/dependencies_viewer
-   features/hover_evaluate
    features/code_snippets
 
 .. toctree:: 

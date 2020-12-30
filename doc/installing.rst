@@ -5,7 +5,7 @@ Installing
 
 All the tools are automatically managed by TerosHDL vscode plugin.
 But there are some requisites you have to satisfy to enable the all the functionalities.
-You can search for ``TerosHDL`` inside VSCode in the extensions tab or Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
+You can search for ``TerosHDL`` inside VSCode in the extensions tab or Launch VS Code Quick Open ``Ctrl+P``, paste the following command, and press enter:
 ``ext install teros-technology.teroshdl``
 
 Requisites
