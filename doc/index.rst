@@ -9,7 +9,7 @@ come from open source proyects. All the tools are organized in different backend
 
 The IDE tries to be as much self-contained as possible and simplify the installation process.
 
-.. image:: images/features/super_sample.gif
+.. image:: features/images/super_sample.gif
 
 Quick links
 -----------
