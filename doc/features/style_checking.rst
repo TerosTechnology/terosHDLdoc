@@ -3,7 +3,7 @@
 Style checking
 ==============
 
-WIP: Experimental feature. 
+.. important:: WIP: This is an experimental feature. 
 
 The style checking highlight the style errors.
 
@@ -23,9 +23,12 @@ VHDL style checking
 SVG
 ~~~
 
+TBD
+
 Verilog style checking
 ----------------------
 
 Verible
 ~~~~~~~
 
+TBD
