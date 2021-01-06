@@ -3,7 +3,7 @@
 Code snippets and grammar
 =========================
 
-TerosHDL supports code snippets and grammar for some HHDL related languages:
+TerosHDL supports code snippets and grammar for some HDL related languages:
 
 ================ ================= =============
  Language         Grammar          Code snippets 

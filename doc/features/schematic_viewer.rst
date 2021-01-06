@@ -8,6 +8,8 @@ provide a code free of errors.
 
 It's a good practice to try the `fpga4student <https://www.fpga4student.com/p/verilog-project.html>`_ basic blocks. 
 
+
+
 Usage instructions
 ------------------
 
