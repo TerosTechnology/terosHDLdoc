@@ -16,6 +16,17 @@ Requisites
 -  `HDL simulator`_
 -  `Vunit`_
 
+Most features work without external Visual Studio Code dependencies but some special features require 
+manually installed software by the user.
+
+=====================    ================= 
+ Feature                  Requisite        
+=====================    =================
+  Linter                  `HDL simulator`_             
+  Dependencie viewer      `Python3`_             
+  Project manager         `Vunit`_             
+=====================    ================= 
+
 
 Visual Studio Code
 ~~~~~~~~~~~~~~~~~~
@@ -32,7 +43,9 @@ CLI Ubuntu installation example:
 Python3
 ~~~~~~~
 
-Python3 should be installed in the machine to use the dependencies viewer.
+Python3 must be installed in the machine to use the dependencies viewer.
+
+Check how to :doc:`configure the python3 path <./configuration/general>`  if python3 issues appear. 
 
 HDL simulator
 ~~~~~~~~~~~~~

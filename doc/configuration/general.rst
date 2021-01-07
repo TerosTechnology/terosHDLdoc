@@ -9,7 +9,7 @@ Python3 path
 ------------
 
 Python3 is automatically usable by TerosHDL if it's in your system path.
-But you can configura a custom path if it's not the case in
+But a custom path can be configures if it's not the case in
 
 ``Teroshdl › Global: Python3-path``
 
