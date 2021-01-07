@@ -3,6 +3,29 @@
 Documenter
 ==========
 
+Features
+--------
+
+The supported elements of the languages are represented in the following table:
+
+=====================    ================= =============
+ Element                  Verilog/SV         VHDL 
+=====================    ================= ============= 
+  FSM                     Yes               Yes      
+  Diagram                 Yes               Yes  
+  Description             Yes               Yes
+  Ports                   Yes               Yes
+  Parameters/Generics     Yes               Yes  
+  Constants               Yes               Yes
+  Typedef/Type            Yes               Yes
+  Signals                 Yes               Yes
+  Always/process          Yes               Yes
+  Instantiations          Yes               Yes
+=====================    ================= =============
+
+Some elements can be avoided in documentation, or documented only if a comment hs been added.
+
+
 Special comment symbols
 -----------------------
 

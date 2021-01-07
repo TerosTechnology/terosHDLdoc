@@ -24,7 +24,7 @@ Main Features
 -  :doc:`Dependencies viewer <./features/dependencies_viewer>`
 -  :doc:`Hover to evaluate binary, hexadecimal and octal values <./features/hover_evaluate>`
 -  :doc:`Code snippets and grammar <./features/code_snippets>`
--  :doc:`Netlist viewer <./features/netlist_viewer>`
+-  :doc:`Schematic viewer <./features/schematic_viewer>`
 
 
 Credits
