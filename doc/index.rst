@@ -45,13 +45,14 @@ Quick links
    features/hover_structure
    features/template_generator
    features/documenter
-   features/shematic_viewer
+   features/schematic_viewer
    features/error_checking
    features/style_checking
    features/formatting
    features/stm_viewer
    features/stm_designer
    features/dependencies_viewer
+   features/project_manager
    features/code_snippets
 
 .. toctree:: 
@@ -63,6 +64,10 @@ Quick links
    thanks_to
    future_work
    
+
+.. _VSCode plugin: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
+.. _Teros Technology: https://github.com/TerosTechnology
+
 
 .. Indices and tables
 .. ==================
