@@ -14,6 +14,7 @@ Requisites
 -  `Visual Studio Code`_
 -  `Python3`_
 -  `HDL simulator`_
+-  `Vunit`_
 
 
 Visual Studio Code
@@ -48,3 +49,13 @@ Linter needs a simulator to work. The currently supported simulators are the fol
    ==========   ========
 
 To configure the linter visit the :doc:`linter configuration section <./configuration/linters>` 
+
+Vunit
+~~~~~
+
+It is necessary to use the project manager.
+Install:
+
+.. code-block:: console
+
+    > pip install vunit_hdl

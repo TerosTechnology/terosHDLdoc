@@ -1,5 +1,21 @@
 .. TerosHDL documentation index file
 
+
+.. centered:: |currentVersion|_ |shieldRepo|_ |shieldGitter|_ |shieldTwitter|_ 
+
+.. |currentVersion| image:: https://img.shields.io/visual-studio-marketplace/v/teros-technology.teroshdl.svg
+.. _currentVersion: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
+
+.. |shieldRepo| image:: https://img.shields.io/badge/TerosTechnology/vscode-terosHDL-0c479d.svg?longCache=true&style=flat-square&logo=github
+.. _shieldRepo: https://github.com/TerosTechnology/vscode-terosHDL
+
+.. |shieldGitter| image:: https://img.shields.io/gitter/room/TerosHDL/TerosHDL.svg?longCache=true&style=flat-square&logo=gitter&logoColor=4db797&color=4db797
+.. _shieldGitter: https://gitter.im/TerosHDL/community
+
+.. |shieldTwitter| image:: https://img.shields.io/twitter/follow/terostech.svg?longCache=true&style=flat-square&color=1DA1F2&label=%40VUnitFramework&logo=twitter&logoColor=fff
+.. _shieldTwitter: https://www.twitter.com/terostech
+
+
 Welcome to TerosHDL's documentation!
 ====================================
 
@@ -27,6 +43,7 @@ Quick links
    about
    installing
    testimonials
+   contact
 
 .. toctree::
    :caption: Configuration
