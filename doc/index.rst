@@ -12,7 +12,7 @@
 .. |shieldGitter| image:: https://img.shields.io/gitter/room/TerosHDL/TerosHDL.svg?longCache=true&style=flat-square&logo=gitter&logoColor=4db797&color=4db797
 .. _shieldGitter: https://gitter.im/TerosHDL/community
 
-.. |shieldTwitter| image:: https://img.shields.io/twitter/follow/terostech.svg?longCache=true&style=flat-square&color=1DA1F2&label=%40VUnitFramework&logo=twitter&logoColor=fff
+.. |shieldTwitter| image:: https://img.shields.io/twitter/follow/terostech.svg?longCache=true&style=flat-square&color=1DA1F2&label=%40terostech&logo=twitter&logoColor=fff
 .. _shieldTwitter: https://www.twitter.com/terostech
 
 
@@ -59,7 +59,6 @@ Quick links
 
    features/go_to_definition
    features/hover_evaluate
-   features/hover_structure
    features/template_generator
    features/documenter
    features/schematic_viewer
