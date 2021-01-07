@@ -30,7 +30,7 @@ Usage instructions
 
 .. tip:: Code navigation
   
-    A click on the Vunit file or on a test on the list opens the file.
+    A click on the Vunit file or on the ``go_to_code`` button of a test on the list opens the file.
 
 .. image:: images/project_manager.gif
 
