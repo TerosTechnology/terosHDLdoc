@@ -45,7 +45,7 @@ Quick links
    testimonials
    team
    contact
-   help
+   donate
 
 .. toctree::
    :caption: Configuration

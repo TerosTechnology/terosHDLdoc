@@ -1,7 +1,7 @@
-.. _help:
+.. _donate:
 
-Help
-====
+Donate
+======
 
 You can help us to improve the IDE by donating
 
