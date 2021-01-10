@@ -30,7 +30,7 @@ Main Features
 Credits
 -------
 
-- Foundersand main contributors:
+- Founders & contributors:
     - `Carlos Alberto Ruiz Naranjo <https://github.com/qarlosalberto>`_
     - `Ismael Pérez Rojo <https://github.com/smgl9>`_
     - `Alfredo Sáez <https://github.com/asaezper>`_

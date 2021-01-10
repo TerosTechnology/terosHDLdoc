@@ -43,7 +43,9 @@ Quick links
    about
    installing
    testimonials
+   team
    contact
+   help
 
 .. toctree::
    :caption: Configuration

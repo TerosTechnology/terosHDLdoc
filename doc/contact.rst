@@ -3,10 +3,11 @@
 Contact
 =======
 
-We are a `team`_ of passionate people.
-Feel free to reach us: terostechnology@gmail.com
-Bug reports or feature requests can be made by creating an `issue`_ 
+We are a :doc:`team <./team>` of passionate people. Any feedback is welcome.
+
+Feel free to reach us by mail: terostechnology@gmail.com
+
+Bug reports or feature requests can be made by creating an `issue`_ in Github.
 
 
-.. _team: https://www.terostech.com/#Team
 .. _issue: https://github.com/TerosTechnology/vscode-terosHDL/issues
