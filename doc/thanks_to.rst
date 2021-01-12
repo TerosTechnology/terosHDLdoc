@@ -12,6 +12,8 @@ We develop tools but also integrate other open source projects:
 - `VHDL formatter`_
 - `Verilog formatter`_
 - `YosysJS`_
+- `Tree-sitter-verilog`_
+- `Tree-sitter-vhdl`_
 
 
 .. _Verilog HDL/SystemVerilog: https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL
@@ -21,3 +23,5 @@ We develop tools but also integrate other open source projects:
 .. _VHDL formatter: https://github.com/g2384/VHDLFormatter
 .. _Verilog formatter: https://github.com/thomasrussellmurphy/istyle-verilog-formatter
 .. _YosysJS: http://www.clifford.at/yosys/yosysjs.html
+.. _Tree-sitter-verilog : https://github.com/tree-sitter/tree-sitter-verilog
+.. _Tree-sitter-vhdl : https://github.com/alemuller/tree-sitter-vhdl
