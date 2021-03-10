@@ -81,6 +81,24 @@ You can learn more about `bitfield`_.
 
 .. image:: images/bitfield_example.png
 
+Doxygen support
+~~~~~~~~~~~~~~~
+
+Doxygen commands are parsed by the documenter.
+
+Group ports
+~~~~~~~~~~~
+
+It's possible to group ports into buses to simplify the diagram and the table ports.
+
+All the ports between ``--! @virtualbus```and ``--! @end`` will be grouped in the diagram and the ports table
+Optional arguments: ``--! @virtualbus [name_of_interface] @dir [in/out] @keepports  [comment]``
+
+``@dir`` selects to virtualbus direction, possible values in/out.
+``@keepports`` keeps the description of the pors in the table instead of group together in a bus.
+
+.. image:: images/group_ports.png
+
 Usage instructions
 -------------------
 

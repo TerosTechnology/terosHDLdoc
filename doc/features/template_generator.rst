@@ -20,6 +20,12 @@ Supported templates
  Verilator            
 ==========  =========
 
+Templates header
+----------------
+
+A header text can be added at the begining of the file.
+The path of the file containing the header text can be configured in the extension settings.
+
 Usage instructions
 -------------------
 
