@@ -89,7 +89,7 @@ Doxygen commands are parsed by the documenter.
 Group ports
 ~~~~~~~~~~~
 
-It's possible to group ports into buses to simplify the diagram and the table ports.
+It's possible to group ports into buses to simplify the diagram and the ports table.
 
 All the ports between ``--! @virtualbus```and ``--! @end`` will be grouped in the diagram and the ports table
 Optional arguments: ``--! @virtualbus [name_of_interface] @dir [in/out] @keepports  [comment]``
