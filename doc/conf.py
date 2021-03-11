@@ -14,11 +14,11 @@ sys.path.insert(0, abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'TerosHDL'
-copyright = '2020, Ismael Perez Rojo, Carlos Alberto Ruiz Naranjo, Alfredo Saez'
+copyright = '2021, Ismael Perez Rojo, Carlos Alberto Ruiz Naranjo, Alfredo Saez'
 author = 'Ismael Perez Rojo, Carlos Alberto Ruiz Naranjo, Alfredo Saez'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1.0'
+release = '0.1.4'
 
 
 # -- General configuration ---------------------------------------------------

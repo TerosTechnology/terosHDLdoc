@@ -10,6 +10,7 @@ We develop tools but also integrate other open source projects:
 - `VSG`_
 - `Wavedrom`_
 - `VHDL formatter`_
+- `VHDL grammar`_
 - `Verilog formatter`_
 - `YosysJS`_
 - `Tree-sitter-verilog`_
@@ -21,6 +22,7 @@ We develop tools but also integrate other open source projects:
 .. _VSG: https://github.com/jeremiah-c-leary/vhdl-style-guide
 .. _Wavedrom: https://github.com/wavedrom/wavedrom
 .. _VHDL formatter: https://github.com/g2384/VHDLFormatter
+.. _VHDL grammar: https://github.com/richjyoung/vscode-modern-vhdl
 .. _Verilog formatter: https://github.com/thomasrussellmurphy/istyle-verilog-formatter
 .. _YosysJS: http://www.clifford.at/yosys/yosysjs.html
 .. _Tree-sitter-verilog : https://github.com/tree-sitter/tree-sitter-verilog
