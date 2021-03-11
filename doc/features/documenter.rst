@@ -91,7 +91,7 @@ Group ports
 
 It's possible to group ports into buses to simplify the diagram and the ports table.
 
-All the ports between ``--! @virtualbus```and ``--! @end`` will be grouped in the diagram and the ports table
+All the ports between the lines: ``--! @virtualbus`` and ``--! @end`` will be grouped in the diagram and the ports table
 Optional arguments: ``--! @virtualbus [name_of_interface] @dir [in/out] @keepports  [comment]``
 
 ``@dir`` selects to virtualbus direction, possible values in/out.
