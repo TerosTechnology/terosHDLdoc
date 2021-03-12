@@ -179,16 +179,31 @@ And the result:
 
 .. image:: images/doxygen_commands.png
 
-Group ports
-~~~~~~~~~~~
+Doxygen commands can be provided both with ``@`` or with ``\`` prefix. The list of the currently supported commands is down here:
 
-It's possible to group ports into buses to simplify the diagram and the ports table.
+=================    ===============================================  ========================================================================
+ Command             Behavior                                         Notes
+=================    ===============================================  ========================================================================
+  ``@title``         changes the generated documentation page title   Single line command, if not provided defaults to  Entity: <entity_name>
+  ``@file``          Adds an entry for the file name                  Single line command
+  ``@author``        Adds an entry for the author name                Single line command
+  ``@version``       Adds an entry for the code version               Single line command
+  ``@date``          Adds an entry for the file date                  Single line command
+  ``@copyright``     Adds a copyright statements                      multi-line, ends on the first empty line
+  ``@brief``         appends the following text to the description    Stripped from text, following text is located in the description section
+  ``@details``       appends the following text to the description    Stripped from text, following text is located in the description section
+ ================    ===============================================  ========================================================================
+
+Virtual Buses
+~~~~~~~~~~~~~
+
+It's possible to combine ports into virtual buses to simplify the diagram and the ports table.
 
 All the ports between the lines: ``--! @virtualbus`` and ``--! @end`` will be grouped in the diagram and the ports table
-Optional arguments: ``--! @virtualbus [name_of_interface] @dir [in/out] @keepports  [comment]``
+Syntax arguments: ``--! @virtualbus [name_of_interface]  @dir [in/out] @keepports  [comment]``
 
-``@dir`` selects to virtualbus direction, possible values in/out.
-``@keepports`` keeps the description of the pors in the table instead of group together in a bus.
+``@dir`` selects to virtualbus direction, possible values in/out. Default is in
+``@keepports`` keeps the description of the ports in the table instead of group together in a bus. Groups only in the diagram
 
 .. image:: images/group_ports.png
 
