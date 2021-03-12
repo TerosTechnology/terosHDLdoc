@@ -212,7 +212,7 @@ Syntax arguments: ``--! @virtualbus [name_of_interface]  @dir [in/out] @keepport
 
 - ``@dir`` selects to virtualbus direction, possible values ``in/out``. Default is ``in``.
 
-- ``@keepports`` keeps the description of the ports in the table instead of group together in a bus, defaults to ``False``.
+- ``@keepports`` keeps the description of the ports in the table instead of group together in a bus. If not provided, ports are stripped from the diagram and the table
 
 .. image:: images/group_ports.png
 
