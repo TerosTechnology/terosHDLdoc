@@ -181,18 +181,18 @@ And the result:
 
 Doxygen commands can be provided both with ``@`` or with ``\`` prefix. The list of the currently supported commands is down here:
 
-=================    ===============================================  ========================================================================
- Command             Behavior                                         Notes
-=================    ===============================================  ========================================================================
-  ``@title``         changes the generated documentation page title   Single line command, if not provided defaults to  Entity: <entity_name>
-  ``@file``          Adds an entry for the file name                  Single line command
-  ``@author``        Adds an entry for the author name                Single line command
-  ``@version``       Adds an entry for the code version               Single line command
-  ``@date``          Adds an entry for the file date                  Single line command
-  ``@copyright``     Adds a copyright statements                      multi-line, ends on the first empty line
-  ``@brief``         appends the following text to the description    Stripped from text, following text is located in the description section
-  ``@details``       appends the following text to the description    Stripped from text, following text is located in the description section
- ================    ===============================================  ========================================================================
+=================    =================================================  ===========================================================================
+ Command              Behavior                                           Notes
+=================    =================================================  ===========================================================================
+  ``@title``          changes the generated documentation page title     Single line command, if not provided defaults to  Entity: <entity_name>
+  ``@file``           Adds an entry for the file name                    Single line command
+  ``@author``         Adds an entry for the author name                  Single line command
+  ``@version``        Adds an entry for the code version                 Single line command
+  ``@date``           Adds an entry for the file date                    Single line command
+  ``@copyright``      Adds a copyright statements                        multi-line, ends on the first empty line
+  ``@brief``          appends the following text to the description      Stripped from text, following text is located in the description section
+  ``@details``        appends the following text to the description      Stripped from text, following text is located in the description section
+ ================    =================================================  ===========================================================================
 
 Virtual Buses
 ~~~~~~~~~~~~~
