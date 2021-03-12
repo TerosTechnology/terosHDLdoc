@@ -207,10 +207,12 @@ Virtual Buses
 It's possible to combine ports into virtual buses to simplify the diagram and the ports table.
 
 All the ports between the lines: ``--! @virtualbus`` and ``--! @end`` will be grouped in the diagram and the ports table
-Syntax arguments: ``--! @virtualbus [name_of_interface]  @dir [in/out] @keepports  [comment]``
 
-``@dir`` selects to virtualbus direction, possible values in/out. Default is in
-``@keepports`` keeps the description of the ports in the table instead of group together in a bus. Groups only in the diagram
+Syntax arguments: ``--! @virtualbus [name_of_interface]  @dir [in/out] @keepports  [description]``
+
+- ``@dir`` selects to virtualbus direction, possible values ``in/out``. Default is ``in``.
+
+- ``@keepports`` keeps the description of the ports in the table instead of group together in a bus, defaults to ``False``.
 
 .. image:: images/group_ports.png
 
