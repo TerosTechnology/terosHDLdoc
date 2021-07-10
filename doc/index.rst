@@ -32,6 +32,7 @@ Quick links
 
 -  :doc:`TerosHDL features <./about>`
 -  :doc:`TerosHDL installation <./installing>`
+-  :doc:`TerosHDL settings <./configuration/requirements>`
 -  :doc:`TerosHDL settings <./configuration/general>`
 -  :doc:`TerosHDL documenter settings <./configuration/documenter>`
 -  :doc:`Linter configurations <./configuration/linters>`
@@ -51,6 +52,7 @@ Quick links
    :caption: Configuration
    :hidden:
 
+   configuration/requirements
    configuration/general
    configuration/linters
    configuration/documenter

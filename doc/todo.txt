@@ -1,0 +1,45 @@
+- About
+    - What is TerosHDL?
+    - Team.
+    - Requirements.
+    - Installing.
+    - Testimonials.
+    - Donate.
+    - Contact.
+
+- General configuration.
+    - Python.
+    - Tool selections.
+
+- Documenter.
+    - Configuration.
+    - How works.
+    - Command line documenter.
+    - Examples.
+
+- Project manager.
+    - Configuration.
+    - Getting started.
+    - Hiterachy viewer.
+    - Simulators and tools.
+    - Examples.
+
+- State machine viewer.
+    - Configuration.
+    - How works.
+    - Examples.
+
+- Errors checking.
+    - Configuration.
+
+- Code formatting.
+    - Configuration.
+
+- Templates.
+    - Configuration.
+
+- Other features.
+    - State machine Designer.
+    - Hover and evaluate.
+    - Code snippets and grammar.
+

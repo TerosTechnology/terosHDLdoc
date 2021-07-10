@@ -8,3 +8,6 @@
 </p>
 
 # terosHDLdoc
+
+
+pip3 install pygments
