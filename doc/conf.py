@@ -10,6 +10,7 @@ from json import dump, loads
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, abspath('.'))
 
+pygments_style = "sphinx"
 
 # -- Project information -----------------------------------------------------
 
