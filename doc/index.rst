@@ -25,64 +25,125 @@ come from open source proyects. All the tools are organized in different backend
 
 The IDE tries to be as much self-contained as possible and simplify the installation process.
 
-.. image:: features/images/super_sample.gif
-
-Quick links
------------
-
--  :doc:`TerosHDL features <./about>`
--  :doc:`TerosHDL installation <./installing>`
--  :doc:`TerosHDL settings <./configuration/general>`
--  :doc:`TerosHDL documenter settings <./configuration/documenter>`
--  :doc:`Linter configurations <./configuration/linters>`
+.. image:: others/images/super_sample.gif
 
 .. toctree::
    :caption: About
    :hidden:
 
-   about
-   installing
-   testimonials
-   team
-   contact
-   donate
+   about/about
+   about/team
+   about/requirements
+   about/installing
+   about/testimonials
+   about/donate
+   about/contact
 
 .. toctree::
-   :caption: Configuration
+   :caption: General configuration
    :hidden:
 
-   configuration/general
-   configuration/linters
-   configuration/documenter
-
+   configuration/python
+   configuration/tools
+.. *****************************************************************************
+.. Documenter
+.. *****************************************************************************
 .. toctree::
-   :caption: Features
+   :caption: Documenter
    :hidden:
 
-   features/go_to_definition
-   features/hover_evaluate
-   features/template_generator
-   features/documenter
-   features/schematic_viewer
-   features/error_checking
-   features/style_checking
-   features/formatting
-   features/stm_viewer
-   features/stm_designer
-   features/dependencies_viewer
-   features/project_manager
-   features/code_snippets
+   documenter/configuration
+   documenter/start
+   documenter/command_line
+   documenter/examples
+.. *****************************************************************************
+.. Project manager
+.. *****************************************************************************
+.. toctree::
+   :caption: Project manager
+   :hidden:
 
+   project_manager/configuration
+   project_manager/start
+   project_manager/hiterachy
+   project_manager/simulators
+   project_manager/examples
+.. *****************************************************************************
+.. State machine viewer
+.. *****************************************************************************
+.. toctree::
+   :caption: State machine viewer
+   :hidden:
+
+   state_machine_viewer/configuration
+   state_machine_viewer/start
+   state_machine_viewer/examples
+.. *****************************************************************************
+.. Errors checking
+.. *****************************************************************************
+.. toctree::
+   :caption: Errors checking
+   :hidden:
+
+   linter/configuration
+   linter/start
+   linter/examples
+.. *****************************************************************************
+.. Style checking
+.. *****************************************************************************
+.. toctree::
+   :caption: Style checking
+   :hidden:
+
+   style/configuration
+   style/start
+   style/examples
+.. *****************************************************************************
+.. Code formatting
+.. *****************************************************************************
+.. toctree::
+   :caption: Code formatting
+   :hidden:
+
+   formatting/configuration
+   formatting/start
+   formatting/examples
+.. *****************************************************************************
+.. Templates
+.. *****************************************************************************
+.. toctree::
+   :caption: Templates
+   :hidden:
+
+   templates/configuration
+   templates/start
+   templates/examples
+.. *****************************************************************************
+.. Others
+.. *****************************************************************************
+.. toctree::
+   :caption: Other features
+   :hidden:
+
+   others/sintax_highlighting
+   others/state_machine_designer
+   others/go_to_definition
+   others/hover
+   others/code_snippets
+   others/schematic_viewer
+.. *****************************************************************************
+.. Appendix
+.. *****************************************************************************
 .. toctree:: 
    :caption: Appendix
    :hidden:
 
-   troubleshooting
-   similar_projects
-   thanks_to
-   future_work
+   appendix/release_notes
+   appendix/troubleshooting
+   appendix/similar_projects
+   appendix/thanks_to
+   appendix/future_work
    
-
 .. _VSCode plugin: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
 .. _Teros Technology: https://github.com/TerosTechnology
 
