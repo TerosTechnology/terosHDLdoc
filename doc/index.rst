@@ -75,7 +75,6 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    :caption: State machine viewer
    :hidden:
 
-   state_machine_viewer/configuration
    state_machine_viewer/start
    state_machine_viewer/examples
 .. *****************************************************************************
@@ -118,6 +117,15 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    templates/configuration
    templates/start
    templates/examples
+.. *****************************************************************************
+.. Schematic viewer
+.. *****************************************************************************
+.. toctree::
+   :caption: Schematic viewer
+   :hidden:
+
+   netlist/configuration
+   netlist/start
 .. *****************************************************************************
 .. Others
 .. *****************************************************************************
