@@ -13,7 +13,6 @@ Supported templates
     :widths: auto
     :align: center
 
-    "Verilog", "VHDL"      
     "Testbench", "Testbench"
     "cocotb", "cocotb"  
     "VUnit", "VUnit"   
@@ -27,7 +26,7 @@ Supported templates
 Usage instructions
 -------------------
 
-1. Open a Verilog/VHDL file and push the template generation button.
+1. Open a Verilog/SV/VHDL file and push the template generation button.
 
 .. image:: images/sample_templates_select.png
 

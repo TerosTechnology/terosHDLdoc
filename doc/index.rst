@@ -86,7 +86,6 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 
    linter/configuration
    linter/start
-   linter/examples
 .. *****************************************************************************
 .. Style checking
 .. *****************************************************************************
@@ -96,7 +95,6 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 
    style/configuration
    style/start
-   style/examples
 .. *****************************************************************************
 .. Code formatting
 .. *****************************************************************************
@@ -116,7 +114,6 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 
    templates/configuration
    templates/start
-   templates/examples
 .. *****************************************************************************
 .. Schematic viewer
 .. *****************************************************************************
