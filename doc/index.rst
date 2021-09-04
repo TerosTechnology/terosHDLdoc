@@ -33,16 +33,16 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 
    about/about
    about/team
-   about/requirements
-   about/installing
    about/testimonials
    about/donate
    about/contact
 
 .. toctree::
-   :caption: General configuration
+   :caption: Getting started
    :hidden:
 
+   about/installing
+   about/requirements
    configuration/python
    configuration/tools
 .. *****************************************************************************
@@ -147,7 +147,6 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    appendix/troubleshooting
    appendix/similar_projects
    appendix/thanks_to
-   appendix/future_work
    
 .. _VSCode plugin: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
 .. _Teros Technology: https://github.com/TerosTechnology

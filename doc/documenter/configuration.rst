@@ -10,11 +10,14 @@ A special symbol can be configured to identify the coments to be extracted
 from the HDL file. The special symbol must follow the comment characters of
 the language that is being used. By default the special character is ``!``
 
+
+.. image:: images/config.png
+
 You can use the special comment symbol to remove the license header or other
 non useful comments.
 
 .. code-block:: vhdl
-    :emphasize-lines: 3,5
+
     -- Other comment not included
     --! This is a description
     --! of the entity.
@@ -27,7 +30,6 @@ non useful comments.
 
 
 .. code-block:: verilog
-    :emphasize-lines: 3,5
     
     // This is a 
     // license header

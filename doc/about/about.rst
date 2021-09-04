@@ -20,6 +20,7 @@ Credits
     - Sergio Alonso de Santocildes
     - Carlos Chabert
     - `Unai Martinez-Corral <https://github.com/umarcor>`_
+    - `Julien Faucher <https://github.com/suzizecat>`_ 
 
 .. _VSCode plugin: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
 .. _Teros Technology: https://github.com/TerosTechnology

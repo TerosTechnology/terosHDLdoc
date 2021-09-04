@@ -15,7 +15,3 @@ Requisites
 - :doc:`Other requirements <./requirements>`
 
 
-Visual Studio Code
-~~~~~~~~~~~~~~~~~~
-
-:download:`Download VSCode <https://code.visualstudio.com/Download>` 

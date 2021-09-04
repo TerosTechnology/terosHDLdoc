@@ -10,6 +10,8 @@ Tool selection
 
 Tool used in project manager. 
 
+.. image:: images/config_tool.png
+
 Tool configuration
 ------------------
 
@@ -24,3 +26,8 @@ Only the folder, not folder and binary name. E.g:
 - GHDL in Linux: /usr/local/bin/
 
 Make sure that the tool binary is located in the folder.
+
+.. image:: images/config_tool_tab.png
+
+
+
