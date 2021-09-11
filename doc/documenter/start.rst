@@ -17,10 +17,12 @@ Documenting files
 - To insert a new line: 
 
 .. code-block:: vhdl
+
     --! This is a description
     --! with a new line.
     --!
     --! Other line.
+
     entity counter is
     port (
         clk: in std_logic; --! Clock comment
@@ -38,7 +40,7 @@ Wavedrom
 
 TerosHDL supports WaveJSON format in the module description.
 The format describes digital timing diagrams.
-You can learn more about it in the `wavedrom tutorial`_. 
+You can learn more about the syntax: https://wavedrom.com/tutorial.html
 
 .. image:: images/wavedrom_example.png
 
@@ -46,7 +48,7 @@ Bitfield
 ~~~~~~~~
 
 TerosHDL can also parse data descriptions in the same way that wavedrom.
-You can learn more about `bitfield`_.
+You can learn more about the syntax:  https://observablehq.com/collection/@drom/bitfield
 
 .. image:: images/bitfield_example.png
 
@@ -170,6 +172,14 @@ Doxygen commands can be provided both with ``@`` or with ``\`` prefix. The list 
 | ``@details``   | appends the following text to the description  | Multi-line, ends on the first empty line.                                |
 +----------------+------------------------------------------------+--------------------------------------------------------------------------+
 
+
+Special tags
+~~~~~~~~~~~~
+
+- ``@custom_section_begin /path/to/file.txt``: read file.txt and insert the content at the beginning of the document.
+- ``@custom_section_end /path/to/file.txt``: read file.txt and insert the content at the end of the document.
+
+
 Virtual Buses
 ~~~~~~~~~~~~~
 
@@ -185,6 +195,12 @@ Syntax arguments: ``--! @virtualbus [name_of_interface]  @dir [in/out] @keepport
 
 .. image:: images/group_ports.png
 
+State machines
+~~~~~~~~~~~~~~
+
+It's possible to include the state machines in your documentation, but you need to follow this rules: 
+
+
 Usage instructions
 -------------------
 
@@ -198,9 +214,4 @@ Usage instructions
 
 3. Select what to show and the verbosity of the documentation. It is possible to document everything, just the elements that are being comented or nothing for each documentation section available.
 
-4. Export the generated documentation to PDF, MarkDown, HTML or SVG diagrams.
-
-5. Every time the file is edited and saved, the preview will update the documentation automatically.
-
-.. _wavedrom tutorial: https://wavedrom.com/tutorial.html
-.. _bitfield: https://observablehq.com/collection/@drom/bitfield
+4. Export the generated documentation.

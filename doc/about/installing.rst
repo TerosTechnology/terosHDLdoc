@@ -3,10 +3,15 @@
 Installing
 ==========
 
-You can search for ``TerosHDL`` inside VSCode in the extensions tab or Launch VS Code Quick Open ``Ctrl+P``, 
-paste the following command, and press enter: ``ext install teros-technology.teroshdl``
+1. Install VSCode: https://code.visualstudio.com/
+2. search for ``TerosHDL`` inside VSCode in the extensions and click in install button:
+
+.. image:: images/search_teros.png
+
 
 .. _VSCode plugin in the market place: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
+
+3. Make sure you install the other :doc:`other requirements <./requirements>`
 
 Requisites
 ----------

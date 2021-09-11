@@ -3,6 +3,12 @@
 Configuration
 =============
 
+Open TerosHDL configuration panel and cofigure the formatter:
+
+.. image:: images/configuration.png
+
+
+
 .. csv-table:: Supported formatters
     :header: "Formatter", "Language", "Requeriments"
     :widths: auto
@@ -13,9 +19,12 @@ Configuration
     "Verible", "Verilog/SV", "Verible binary"
     "Standalone", "VHDL", "None"
 
-You can download Verible binary from: https://github.com/chipsalliance/verible/releases
+.. important::
 
-Open TerosHDL configuration panel and cofigure the formatter:
+    Download Verible from: https://github.com/chipsalliance/verible/releases
 
-.. image:: images/configuration.png
+
+.. important::
+
+    Make sure Python 3 path is configured in TerosHDL.
 

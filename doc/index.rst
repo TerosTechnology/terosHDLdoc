@@ -41,10 +41,19 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    :caption: Getting started
    :hidden:
 
-   about/installing
    about/requirements
+   about/installing
    configuration/python
    configuration/tools
+.. *****************************************************************************
+.. Editor
+.. *****************************************************************************
+.. toctree::
+   :caption: Editor
+   :hidden:
+
+   editor/features
+
 .. *****************************************************************************
 .. Documenter
 .. *****************************************************************************
