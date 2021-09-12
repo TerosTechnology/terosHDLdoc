@@ -64,37 +64,3 @@ Your code must follow the following general rules (they are common for VHDL and 
     endcase
   end
 
-- You can force to parse the FSM adding the comment ``fsm_extract``. If you are using ``!`` as documentation symbol it would be ``!fsm_extract``:
-
-.. code-block:: verilog
-
-  //fsm_extract
-  always @(clk)
-  begin
-    case (State)
-  
-      if (Lever == DOWN)
-        State = GODN;
-      else
-        State = FLYUP;
-      end
-    
-    endcase
-  end
-
-
-.. code-block:: verilog
-
-  //! fsm_extract
-  always @(clk)
-  begin
-    case (State)
-  
-      if (Lever == DOWN)
-        State = GODN;
-      else
-        State = FLYUP;
-      end
-    
-    endcase
-  end

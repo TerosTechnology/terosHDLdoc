@@ -27,7 +27,7 @@ come from open source proyects. All the tools are organized in different backend
 
 The IDE tries to be as much self-contained as possible and simplify the installation process.
 
-.. image:: others/images/super_sample.gif
+.. image:: images/super.gif
 
 .. toctree::
    :caption: About
@@ -57,6 +57,7 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 
    editor/configuration
    editor/shutter_mode
+   editor/go_to_parent
    editor/go_to_definition
    editor/hover
    editor/code_snippets
