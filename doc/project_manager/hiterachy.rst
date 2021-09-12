@@ -2,3 +2,13 @@
 
 Hiterachy
 =========
+
+Hiterachy
+---------
+
+.. image:: images/hiterachy.png
+
+
+.. image:: images/hiterachy.gif
+
+

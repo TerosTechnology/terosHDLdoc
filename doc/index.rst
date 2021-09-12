@@ -19,6 +19,8 @@
 Welcome to TerosHDL's documentation!
 ====================================
 
+.. image:: img_logo/bcard-front.png
+
 The goal of TerosHDL is to provide an open source IDE for HDL devlopers with functionalities commonly used by software developers.
 The IDE consist in a bunch of tools and on top of them is the `VSCode plugin`_. Some tools are developed by `Teros Technology`_ organization and others
 come from open source proyects. All the tools are organized in different backends and exposed to the GUI with the plugin.
@@ -81,6 +83,8 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    project_manager/configuration
    project_manager/start
    project_manager/hiterachy
+   project_manager/dependency
+   project_manager/documentation
    project_manager/simulators
    project_manager/examples
 .. *****************************************************************************

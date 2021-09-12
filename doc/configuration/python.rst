@@ -1,7 +1,7 @@
 .. _python:
 
-Python3
-=======
+Python 3
+========
 
 
 Python3 is automatically usable by TerosHDL if it’s in your system path. But a custom path can be configures 
