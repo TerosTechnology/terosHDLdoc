@@ -8,7 +8,7 @@ Special comment symbols
 
 A special symbol can be configured to identify the coments to be extracted 
 from the HDL file. The special symbol must follow the comment characters of
-the language that is being used. By default the special character is ``!``
+the language that is being used.
 
 
 .. image:: images/config.png

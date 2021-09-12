@@ -45,6 +45,7 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    about/installing
    configuration/python
    configuration/tools
+
 .. *****************************************************************************
 .. Editor
 .. *****************************************************************************
@@ -52,7 +53,12 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    :caption: Editor
    :hidden:
 
-   editor/features
+   editor/configuration
+   editor/shutter_mode
+   editor/go_to_definition
+   editor/hover
+   editor/code_snippets
+   editor/sintax_highlighting
 
 .. *****************************************************************************
 .. Documenter
@@ -139,12 +145,8 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    :caption: Other features
    :hidden:
 
-   others/sintax_highlighting
    others/state_machine_designer
-   others/go_to_definition
-   others/hover
-   others/code_snippets
-   others/schematic_viewer
+
 .. *****************************************************************************
 .. Appendix
 .. *****************************************************************************
