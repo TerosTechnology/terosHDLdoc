@@ -36,7 +36,6 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    about/about
    about/team
    about/testimonials
-   about/donate
    about/contact
 
 .. toctree::
