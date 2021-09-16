@@ -12,7 +12,7 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 Credits
 -------
 
-- Founders & contributors:
+- Founders and main developers:
     - `Carlos Alberto Ruiz Naranjo <https://github.com/qarlosalberto>`_
     - `Ismael Pérez Rojo <https://github.com/smgl9>`_
 - Contributors:
@@ -21,6 +21,7 @@ Credits
     - Carlos Chabert
     - `Unai Martinez-Corral <https://github.com/umarcor>`_
     - `Julien Faucher <https://github.com/suzizecat>`_ 
+    - `Ahmad Elbadri <https://github.com/el3ctrician>`_ 
 
 .. _VSCode plugin: https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl
 .. _Teros Technology: https://github.com/TerosTechnology

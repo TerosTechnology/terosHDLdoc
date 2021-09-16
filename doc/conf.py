@@ -60,9 +60,9 @@ html_theme = "_theme"
 
 html_logo_path = ["img_logo"]
 
-html_logo = str(Path(html_logo_path[0]) / "logo32.png")
+html_logo = str(Path(html_logo_path[0]) / "logo.png")
 
-html_favicon = str(Path(html_logo_path[0]) / "logo32.ico")
+html_favicon = str(Path(html_logo_path[0]) / "logo.ico")
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
