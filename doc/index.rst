@@ -82,6 +82,7 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 
    project_manager/configuration
    project_manager/start
+   project_manager/gui
    project_manager/hiterachy
    project_manager/dependency
    project_manager/documentation

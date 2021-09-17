@@ -10,7 +10,7 @@ if it’s not the case. You need the provide the complete path Python (included 
 .. image:: images/config_python.png
 
 Python 3 in system path
-----------------------
+-----------------------
 
 You don't need to configure it.
 
