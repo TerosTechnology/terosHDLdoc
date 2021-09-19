@@ -15,7 +15,7 @@ We develop tools but also integrate other open source projects:
 - `YosysJS`_
 - `Tree-sitter-verilog`_
 - `Tree-sitter-vhdl`_
-
+- `Edalize`_
 
 .. _Verilog HDL/SystemVerilog: https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL
 .. _VUnit: https://vunit.github.io
@@ -27,3 +27,4 @@ We develop tools but also integrate other open source projects:
 .. _YosysJS: http://www.clifford.at/yosys/yosysjs.html
 .. _Tree-sitter-verilog : https://github.com/tree-sitter/tree-sitter-verilog
 .. _Tree-sitter-vhdl : https://github.com/alemuller/tree-sitter-vhdl
+.. _Edalize : https://github.com/olofk/edalize
