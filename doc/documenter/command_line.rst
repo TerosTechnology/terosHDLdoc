@@ -8,10 +8,17 @@ There is a documenter command line version (https://github.com/TerosTechnology/c
 Installation
 ------------
 
+From source code:
+
 .. code-block:: console
 
     > npm install -g teroshdl
 
+Pull the docker image:
+
+.. code-block:: console
+
+    > docker pull terostech/colibri
 
 Input format
 ------------
@@ -28,8 +35,8 @@ The avaiable input formats of the CL TerosHDL documenter are:
     library_1, ../rtl/module_1.vhd
     library_2, ../rtl/module_2.vhd
 
-Ussage
-------
+Usage
+-----
 
 In this example TerosHDL CL will generate the documentation for all HDL files in the directory surf and subdirectories. 
 The output path is ./sample and the output format HTML. It will include:
