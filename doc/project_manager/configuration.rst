@@ -14,10 +14,13 @@ Python 3
 Tools: simulators and others
 ----------------------------
 
+:ref:`Go to tools settings.<tools>`
+
 
 Project documentation
 ---------------------
 
+:ref:`Go to documentation settings.<configuration_documenter>`
 
 
 Check your configuration

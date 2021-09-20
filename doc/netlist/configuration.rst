@@ -5,8 +5,9 @@ Configuration
 
 You need to install **Yosys** or **YoWASP**.
 
-- **YoWASP**: works in Linux, MacOS and Windows. The installation is easier, but the first load is slower: ``pip install yowasp-yosys``
-- **Yosys**: https://github.com/YosysHQ/yosys
+- **YoWASP**: works in Linux, MacOS and Windows. It supports Verilog and partially System Verilog. The installation is easier, but the first load is slower: ``pip install yowasp-yosys``
+- **Yosys**: It supports Verilog and partially System Verilog. https://github.com/YosysHQ/yosys
+- **GHDL + Yosys**: It supports VHDL, Verilog and partially System Verilog. Hard to install. https://github.com/ghdl/ghdl-yosys-plugin
 
 .. important::
 

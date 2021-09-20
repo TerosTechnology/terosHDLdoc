@@ -8,7 +8,7 @@ There is a documenter command line version (https://github.com/TerosTechnology/c
 Installation
 ------------
 
-From source code:
+From NPM:
 
 .. code-block:: console
 

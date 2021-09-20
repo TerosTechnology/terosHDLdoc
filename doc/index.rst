@@ -73,6 +73,16 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    documenter/start
    documenter/command_line
    documenter/examples
+
+.. *****************************************************************************
+.. Waveform viewer
+.. *****************************************************************************
+.. toctree::
+   :caption: Waveform viewer
+   :hidden:
+
+   waveform/start
+
 .. *****************************************************************************
 .. Project manager
 .. *****************************************************************************
@@ -84,10 +94,11 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    project_manager/start
    project_manager/gui
    project_manager/hiterachy
+   project_manager/schematic_viewer
    project_manager/dependency
    project_manager/documentation
-   project_manager/simulators
-   project_manager/examples
+   project_manager/troubleshooting
+
 .. *****************************************************************************
 .. State machine viewer
 .. *****************************************************************************
@@ -160,7 +171,6 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    :hidden:
 
    appendix/release_notes
-   appendix/troubleshooting
    appendix/similar_projects
    appendix/thanks_to
    
