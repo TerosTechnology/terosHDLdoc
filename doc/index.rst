@@ -71,6 +71,7 @@ The IDE tries to be as much self-contained as possible and simplify the installa
 
    documenter/configuration
    documenter/start
+   documenter/supported_labels
    documenter/command_line
    documenter/examples
 

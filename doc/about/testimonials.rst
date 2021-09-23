@@ -30,3 +30,16 @@ Professionals
    <p>&nbsp;</p>
    <p>&nbsp;</p>
    <p>&nbsp;</p>
+
+--------------------------------------------------------------------
+
+.. raw:: html
+
+   <p><strong><em>"</em>CAEN produces boards and system mainly for physics reasearch facilities and laboratories. FPGA is a key component in the development of digitizer boards.</strong></p>
+   <p><strong>TersoHDL is a key tool to work with HDL source code (VHDL in our case). We highly appreciate features like template generation, design documentation (wavedrom, state machine diagrams, module documentation) among others.</strong><br /><strong>The project is open-sourced and the development team is very responsive. It is also highly involved in the VHDL/Verilog community (VUnit, GHDL, Yosys, OSVVM).</strong></p>
+   <p><strong>Great evolving tool!<em>" </em></strong></p>
+   <p>- Luca Colombini,</p>
+   <p>CAEN staff / Senior design engineer.</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>

@@ -1,21 +1,31 @@
 .. _gui_project_manager:
 
-GUI mode
-========
+Graphical mode
+==============
 
 
-.. csv-table:: Supported tools in GUI mode
-    :header: "Supported tools in GUI mode"
+.. csv-table:: Supported tools in graphical mode
     :widths: auto
     :align: center
 
     "GHDL"  
+    "Vivado"  
+    "ModelSim"  
+    "Xsim"  
+    "Isim"  
+    "Spyglass"  
+    "Xcelium"  
+    "Trellis"  
+    "Apicula"  
+    "Icestorm"  
+    "Nextpnr"  
 
 
 Configuration
 -------------
 
-You can choose your favourite waveform viewer from TerosHDL configurartion. VCDrom is included in the IDE.
+You can choose your favourite waveform viewer for GHDL from TerosHDL configuration. VCDrom is included in the IDE. For others 
+it will be open the tool interface.
 
 
 .. image:: images/gui.png

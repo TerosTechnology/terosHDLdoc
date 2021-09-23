@@ -3,7 +3,7 @@
 Examples
 ============
 
-You can find some examples of state machines here: https://github.com/TerosTechnology/teroshdl-examples/tree/main/documenter/statemachines
+You can find some examples of state machines here: https://github.com/TerosTechnology/teroshdl-examples/tree/main/state_machine
 
 .. important::
 
