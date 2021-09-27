@@ -7,6 +7,8 @@
   -->
 </p>
 
+# TerosHDL documetation
+
 Install Sphinx:
 
 ```
@@ -20,4 +22,3 @@ Build the documentation:
 ```
 make -C doc html
 ```
-
