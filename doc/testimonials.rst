@@ -1,6 +1,0 @@
-.. _testimonials:
-
-Testimonials
-============
-
-TBD

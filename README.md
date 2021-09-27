@@ -7,4 +7,18 @@
   -->
 </p>
 
-# terosHDLdoc
+# TerosHDL documetation
+
+Install Sphinx:
+
+```
+apt-get install python3-sphinx
+```
+
+Download the theme (https://codeload.github.com/buildthedocs/sphinx.theme/tar.gz/v0) and extract it in **doc/_theme**.
+
+Build the documentation:
+
+```
+make -C doc html
+```

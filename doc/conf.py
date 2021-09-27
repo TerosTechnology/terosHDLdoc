@@ -1,15 +1,19 @@
 # -*- coding: utf-8 -*-
 
-import sys, re
+import sys
+import re
 from os.path import abspath
 from pathlib import Path
 from json import dump, loads
+
+master_doc = 'index'
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, abspath('.'))
 
+pygments_style = "sphinx"
 
 # -- Project information -----------------------------------------------------
 
@@ -18,7 +22,7 @@ copyright = '2021, Ismael Perez Rojo, Carlos Alberto Ruiz Naranjo, Alfredo Saez'
 author = 'Ismael Perez Rojo, Carlos Alberto Ruiz Naranjo, Alfredo Saez'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1.4'
+release = '2.0.0'
 
 
 # -- General configuration ---------------------------------------------------
