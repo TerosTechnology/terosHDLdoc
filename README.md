@@ -22,5 +22,3 @@ Build the documentation:
 ```
 make -C doc html
 ```
-
-
