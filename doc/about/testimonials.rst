@@ -24,6 +24,17 @@ Professionals
 
 .. raw:: html
 
+   <p><em><strong>"I have been using Teros HDL plugin in the last year and a half in a daily basis and I really think it helped me to increased my productivity. The Documentation and Finite State Machine (FSM) viewer are really useful features, that allow you to spend more time coding instead of documenting.</strong></em><em><strong>"</strong> </em></p>
+   <p>- David Guzm&aacute;n Garc&iacute;a,</p>
+   <p>Associate Branch Head, Electro-Mechanical Systems Branch / NASA Goddard Space Flight Center.</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+   <p>&nbsp;</p>
+
+--------------------------------------------------------------------
+
+.. raw:: html
+
    <p><em><strong>"This is an excellent IDE for writing in HDL languages, it works flawlessly and the documentation feature is very nicely integrated. Well done, keep up the great work!</strong></em><em><strong>"</strong> </em></p>
    <p>- Glenn Kirilow,</p>
    <p>Technical Leader / Seeing Machines.</p>
