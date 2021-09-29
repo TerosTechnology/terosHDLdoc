@@ -22,7 +22,7 @@ copyright = '2021, Ismael Perez Rojo, Carlos Alberto Ruiz Naranjo, Alfredo Saez'
 author = 'Ismael Perez Rojo, Carlos Alberto Ruiz Naranjo, Alfredo Saez'
 
 # The full version, including alpha/beta/rc tags
-release = '2.0.0'
+release = '2.0.1'
 
 
 # -- General configuration ---------------------------------------------------

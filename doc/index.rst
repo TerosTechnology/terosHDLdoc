@@ -48,6 +48,15 @@ The IDE tries to be as much self-contained as possible and simplify the installa
    configuration/tools
 
 .. *****************************************************************************
+.. Logging
+.. *****************************************************************************
+.. toctree::
+   :caption: Output console
+   :hidden:
+
+   output_console/configuration
+
+.. *****************************************************************************
 .. Editor
 .. *****************************************************************************
 .. toctree::
