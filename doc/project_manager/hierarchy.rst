@@ -1,9 +1,9 @@
-.. _hiterachy_project_manager:
+.. _hierarchy_project_manager:
 
-Hiterachy
+Hierarchy
 =========
 
-Hiterachy
+Hierarchy
 ---------
 
 .. image:: images/hiterachy.png
