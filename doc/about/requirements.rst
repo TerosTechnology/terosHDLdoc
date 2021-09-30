@@ -10,7 +10,7 @@ But there are some requisites you have to satisfy to enable the all the function
 - Python 3 libraries. They could be installed: ``pip3 install teroshdl`` or manually:
     - VUnit: ``pip3 install vunit-hdl``
     - Edalize: ``pip3 install edalize``
-    - YoWASP Yosys: ``pip3 yowasp-yosys``
+    - YoWASP Yosys: ``pip3 install yowasp-yosys``
 
 - Make: https://www.gnu.org/software/make/ or http://gnuwin32.sourceforge.net/packages/make.htm (Windows)
 
