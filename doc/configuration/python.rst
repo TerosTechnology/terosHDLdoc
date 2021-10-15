@@ -38,6 +38,6 @@ Example with Anaconda
 Example with virtualenv
 -----------------------
 
-``source .venv/bin/activate; python3``
+``. .venv/bin/activate; python3``
 
 **If you use Windows you have to replace ';' by '&'**
