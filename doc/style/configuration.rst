@@ -38,13 +38,13 @@ Complete rule list: https://vhdl-style-guide.readthedocs.io/en/latest/rules.html
 .. code-block:: json
 
     rule:
-    global:
-        disable: true
-    port_map_007:
-        disable: true
-    port_025:
-        disable: false
-        suffixes: ['_i', '_o']
+        global:
+            disable: true
+        port_map_007:
+            disable: true
+        port_025:
+            disable: false
+            suffixes: ['_i', '_o']
 
 
 
