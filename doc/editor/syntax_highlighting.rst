@@ -1,4 +1,4 @@
-.. _sintax_highlighting:
+.. _syntax_highlighting:
 
 Syntax highlighting
 ===================
