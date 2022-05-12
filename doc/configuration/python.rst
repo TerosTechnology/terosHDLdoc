@@ -4,8 +4,8 @@ Python 3
 ========
 
 
-Python 3 is automatically usable by TerosHDL if it’s in your system path. But a custom path can be configures 
-if it’s not the case. You need the provide the complete path Python (included binary).
+Python 3 is automatically usable by TerosHDL if it’s in your system path, but a custom path can be configured 
+if it’s not. You need the provide the complete path Python (included binary).
 
 .. image:: images/config_python.png
 
@@ -20,7 +20,7 @@ Example custom path in Linux
 ``/home/teroshdl/custom/python3``
 
 
-Example ustom path in Windows
+Example custom path in Windows
 -----------------------------
 
 Be careful with the blank spaces.
