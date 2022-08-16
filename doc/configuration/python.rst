@@ -30,7 +30,7 @@ Be careful with the blank spaces.
 Example with Anaconda
 ---------------------
 
-``conda activate my_en;``
+``conda activate my_en; python``
 
 **If you use Windows you have to replace ';' by '&'**
 
@@ -38,6 +38,6 @@ Example with Anaconda
 Example with virtualenv
 -----------------------
 
-``. .venv/bin/activate; python3``
+``. .venv/bin/activate; python``
 
 **If you use Windows you have to replace ';' by '&'**
