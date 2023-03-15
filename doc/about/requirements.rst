@@ -12,7 +12,7 @@ But there are some requisites you have to satisfy to enable the all the function
     - Edalize: ``pip3 install edalize``
     - YoWASP Yosys: ``pip3 install yowasp-yosys``
     - VSG (VHDL Style Guide): ``pip3 install vsg``
-- Make: https://www.gnu.org/software/make/ or http://gnuwin32.sourceforge.net/packages/make.htm (Windows)
+- Make: https://www.gnu.org/software/make/ or for Windows, install the make package using the Cygwin installer: https://www.cygwin.com/install.html
 
 Simulators
 ~~~~~~~~~~~~~
