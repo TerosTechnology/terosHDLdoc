@@ -1,7 +1,6 @@
-entity entity is
+entity ports is
     port (
-        --! Port description 0
-        clk   : in std_logic;
-        reset : in std_logic --! Port description 1
+        clk   : in std_logic; --! my clock
+        reset : in std_logic --! reset of everything
     );
 end entity;

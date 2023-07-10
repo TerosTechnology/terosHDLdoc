@@ -31,11 +31,11 @@ export const Hdl = ({name, children, image,id}) => (
     <div>
     <h2 id={id}> {name} </h2>
     <Tabs>
-    <TabItem value="windows" label="Code" default>
+    <TabItem value="code" label="Code" default>
     <CodeBlock language="vhdl">{children}</CodeBlock>
     </TabItem>
-    <TabItem value="linux" label="Documentation">
-    <img src={image} alt="Example banner" />;
+    <TabItem value="result" label="Result">
+    <img src={image} alt="Documentation result" />;
     </TabItem>
     </Tabs>
     </div>
@@ -44,39 +44,48 @@ export const Hdl = ({name, children, image,id}) => (
 export const vhdl_elements = [
     {
         'name': "Entity",
-        'code': entity
+        'code': entity,
+        'impath' :entityimage
     },
     {
         'name': "Package",
-        'code': pkg
+        'code': pkg,
+        'impath': pkgimage
     },
     {
         'name': "Generic",
-        'code': generic
+        'code': generic,
+        'impath' :genericimage
     },
     {
         'name': "Port",
-        'code': port
+        'code': port,
+        'impath' : portimage
     },
     {
         'name': "Signal",
-        'code': signal
+        'code': signal,
+        'impath' : signalimage
     },
     {
         'name': "Constant",
-        'code': constant
+        'code': constant,
+        'impath' :constantimage
     },
     {
         'name': "Function",
-        'code': f
+        'code': f,
+        'impath' : fimage
     },
     {
         'name': "Process",
-        'code': process
+        'code': process,
+        'impath' :processimage
     },
     {
         'name': "Type",
-        'code': tp
+        'code': tp,
+        'impath' :tpimage
     },
 ]
 
@@ -90,6 +99,18 @@ import constant from '!!raw-loader!./examples/vhdl/constant.vhd';
 import f from '!!raw-loader!./examples/vhdl/function.vhd';
 import process from '!!raw-loader!./examples/vhdl/process.vhd';
 import tp from '!!raw-loader!./examples/vhdl/type.vhd';
+
+import entityimage from '@site/static/img/documenter/vhdl/entity.png'
+import pkgimage from '@site/static/img/documenter/vhdl/port.png'
+import genericimage from '@site/static/img/documenter/vhdl/generic.png'
+import portimage from '@site/static/img/documenter/vhdl/port.png'
+import signalimage from '@site/static/img/documenter/vhdl/signal.png'
+import constantimage from '@site/static/img/documenter/vhdl/constant.png'
+import fimage from '@site/static/img/documenter/vhdl/func.png'
+import processimage from '@site/static/img/documenter/vhdl/process.png'
+import tpimage from '@site/static/img/documenter/vhdl/tp.png'
+
+
 
 export const CreateAll = ({elements}) =>(
     <>
@@ -105,7 +126,7 @@ export const CreateAll = ({elements}) =>(
         toc.push(newitm);
     }
     return(
-      <Hdl name={el["name"]} image="None" children={el["code"]} id={el["name"].toLowerCase()}/>
+      <Hdl name={el["name"]} image={el["impath"]} children={el["code"]} id={el["name"].toLowerCase()}/>
     )
   })
 }

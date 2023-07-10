@@ -23,7 +23,7 @@ Install [VSCodium](https://vscodium.com/#install) or [VSCode](https://code.visua
 Install Python3
 
 <Tabs>
-    <TabItem value="windows" label="Windows" default>
+    <TabItem value="windows_s" label="Windows Standalone" default>
       <ul>
         1. Go to the Python website and download the latest version of Python3 for Windows: <a href="https://www.python.org/downloads/windows">https://www.python.org/downloads/windows</a><br /><br />
         2. Run the downloaded file and follow the installation wizard. During the installation, make sure to check the box "Add Python 3.x to PATH" so that you can run Python and pip from any command prompt.<br /><br />
@@ -34,7 +34,30 @@ Install Python3
         7. Type python <code>get-pip.py</code> and press Enter. This will install pip on your system.<br /><br />
         8. To verify that pip is installed correctly, type <code>pip --version</code> in the command prompt and press Enter. This should display the version of pip you just installed.<br /><br />
       </ul>
-    </TabItem>
+      </TabItem>
+    <TabItem value="windows_a" label="Windows Anaconda/Venv">
+        After Installing anaconda from this <a href="https://www.anaconda.com">link</a>, you'll need to make sure that windows is configured correctly to find anaconda as your python provider.
+        make sure you install anaconda for all users!
+      <ul>
+        1.click windows and search for "Edit the system enviorment variables"<br /><br />
+        2.under "System Variables", find <code>Path</code> and click edit<br /><br />
+        3.click new and add the anaconda path (By default, it should be <code>C:\ProgramData\anaconda3\</code>)<br /><br />
+        4.click ok and test correct python was choosen, you can do this by opening command prompt and writing python, you should see a python prompt with "Anaconda" mentioned.
+      </ul>
+        Now, lets create a virtual enviorment and connect it to teroshdl
+      <ul>
+        1.in a folder you want the virtual enviorment to be installed, open command prompt<br /><br />
+        2.write the following command <code>python -m venv venv</code>, this will create a folder named venv where the new virtual python enviorment will be located<br /><br />
+        3.next, we will use the command prompt to "Activate" the virtual enviorment, we do this to install packages in the virtual enviorment, you do this by writing the following command: <code>venv\Scripts\activate.bat</code>, if you see (venv) before the command prompt the virtual enviorment has been activated correctly.<br /><br />
+        4.now we will install the required python packages for teroshdl, we will do this by typing <code>pip install teroshdl</code> <b>in the virtual enviorment command prompt!</b><br /><br />
+      </ul>
+      now that we install teroshdl packages, we can direct teroshdl to this virtual enviorment
+      <ul>
+        1.in vscode, open configuration menu of teroshdl<br/><br/>
+        2.under general you should see <b>python3 binary path</b>, under this textbox write the path to the virtual enviorment binary. For example, <code>C:/tools/venv/Scripts/python3.exe</code><br/><br/>
+        3.after this, teroshdl will use the virtual enviorment as its python tool.<br/><br/>
+      </ul>
+  </TabItem>
     <TabItem value="linux" label="Linux">
       <ul>
         1. Open a terminal window by pressing Ctrl + Alt + T or searching for "Terminal" in the applications menu.<br /><br />
@@ -148,3 +171,10 @@ It is recommended to install TerosHDL from the market.
 
 ![VSCodium](/img/vscodium_vsix.png) 
 </p>
+
+
+## Validating Installation 
+
+You can validate terosHDL dependecies are installed correctly by using the <i>Check Dependecies</i>, you can find the button in teroshdl under <b>Actions</b>
+
+![Check Depencies result](/img/check-dep.png)
