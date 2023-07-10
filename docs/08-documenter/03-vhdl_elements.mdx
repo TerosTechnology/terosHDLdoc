@@ -1,0 +1,116 @@
+---
+description: VHDL elements
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+
+
+import myImageUrl from '../../static/img/documenter/vhdl/process.png';
+
+# VHDL elements
+:::note
+by default, the documenter will use ```--! ``` to recognize things to document.
+:::
+
+
+## Supported labels
+Here are the following labels supported by the documenter:
+* Entity description
+* Ports             
+* Generics          
+* Constants         
+* Signals           
+* Processes         
+* Instances         
+* Functions         
+* Types             
+
+export const Hdl = ({name, children, image,id}) => (
+    <div>
+    <h2 id={id}> {name} </h2>
+    <Tabs>
+    <TabItem value="windows" label="Code" default>
+    <CodeBlock language="vhdl">{children}</CodeBlock>
+    </TabItem>
+    <TabItem value="linux" label="Documentation">
+    <img src={image} alt="Example banner" />;
+    </TabItem>
+    </Tabs>
+    </div>
+);
+
+export const vhdl_elements = [
+    {
+        'name': "Entity",
+        'code': entity
+    },
+    {
+        'name': "Package",
+        'code': pkg
+    },
+    {
+        'name': "Generic",
+        'code': generic
+    },
+    {
+        'name': "Port",
+        'code': port
+    },
+    {
+        'name': "Signal",
+        'code': signal
+    },
+    {
+        'name': "Constant",
+        'code': constant
+    },
+    {
+        'name': "Function",
+        'code': f
+    },
+    {
+        'name': "Process",
+        'code': process
+    },
+    {
+        'name': "Type",
+        'code': tp
+    },
+]
+
+
+import entity from '!!raw-loader!./examples/vhdl/entity.vhd';
+import pkg from '!!raw-loader!./examples/vhdl/package.vhd';
+import generic from '!!raw-loader!./examples/vhdl/generic.vhd';
+import port from '!!raw-loader!./examples/vhdl/port.vhd';
+import signal from '!!raw-loader!./examples/vhdl/signal.vhd';
+import constant from '!!raw-loader!./examples/vhdl/constant.vhd';
+import f from '!!raw-loader!./examples/vhdl/function.vhd';
+import process from '!!raw-loader!./examples/vhdl/process.vhd';
+import tp from '!!raw-loader!./examples/vhdl/type.vhd';
+
+export const CreateAll = ({elements}) =>(
+    <>
+{
+  elements.map((el) => {
+    let newitm = {
+        value: el["name"],
+        id: el["name"].toLowerCase(),
+        level: 3,
+    };
+    let exists = toc.find((tocid)=>{return tocid["id"]==newitm["id"]})
+    if(exists==undefined){
+        toc.push(newitm);
+    }
+    return(
+      <Hdl name={el["name"]} image="None" children={el["code"]} id={el["name"].toLowerCase()}/>
+    )
+  })
+}
+</>
+ )
+
+
+<CreateAll elements={vhdl_elements}/>

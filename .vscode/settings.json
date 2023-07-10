@@ -1,3 +1,16 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}/doc"
+    "cSpell.words": [
+        "GHDL",
+        "iverilog",
+        "Modelsim",
+        "TerosHDL",
+        "Verible",
+        "Verilator",
+        "Verilog",
+        "VHDL",
+        "Vivado",
+        "WaveDrom",
+        "xhdl",
+        "xvlog"
+    ]
 }

@@ -1,0 +1,123 @@
+---
+description: SV/Verilog elements
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+
+# Verilog/SV elements
+:::note
+by default, the documenter will use ```//! ``` to recognize things to document.
+:::
+
+
+## Supported labels
+Here are the following labels supported by the documenter:
+* Module Description
+* Ports
+* Parameters
+* Constants
+* Registers / Wires
+* Always Block
+* Instances
+* Functions
+* Typedefs
+
+export const Hdl = ({name, children, image,id}) => (
+    <div>
+    <h2 id={id} toc={toc}> {name} </h2>
+    <Tabs>
+    <TabItem value="code" label="Code" default>
+    <CodeBlock language="verilog">{children}</CodeBlock>
+    </TabItem>
+    <TabItem value="result" label="Result">
+    <img src={image} alt="documentation result" />
+    </TabItem>
+    </Tabs>
+    </div>
+);
+
+
+export const verilog_elements = [
+    {
+        'name': "Module",
+        'code': mod,
+        'impath': modimage
+    },
+    {
+        'name': "Ports",
+        'code': mod,
+        'impath': portimage
+    },
+    {
+        'name': "Parameters",
+        'code': mod,
+        'impath': parameterimage
+    },
+    {
+        'name': "Constants",
+        'code': constants,
+        'impath': constimage
+    },
+    {
+        'name': "Always",
+        'code': always,
+        'impath': alwaysimage
+    },
+    {
+        'name': "Instances",
+        'code': inst,
+        'impath': instimage
+    },
+    {
+        'name': "Functions",
+        'code': funcs,
+        'impath': funcimage
+    },
+    {
+        'name': "Typedefs",
+        'code': typedefs,
+        'impath': typedefimage
+    },
+]
+
+import mod from '!!raw-loader!./examples/verilog/module.v';
+import constants from '!!raw-loader!./examples/verilog/constants.v';
+import funcs from '!!raw-loader!./examples/verilog/funcs.v';
+import inst from '!!raw-loader!./examples/verilog/inst.v';
+import always from '!!raw-loader!./examples/verilog/always.sv';
+import typedefs from '!!raw-loader!./examples/verilog/typedefs.sv';
+
+import modimage from '@site/static/img/documenter/verilog/module.png'
+import portimage from '@site/static/img/documenter/verilog/port.png'
+import parameterimage from '@site/static/img/documenter/verilog/parameter.png'
+import constimage from '@site/static/img/documenter/verilog/const.png'
+import alwaysimage from '@site/static/img/documenter/verilog/always.png'
+import instimage from '@site/static/img/documenter/verilog/inst.png'
+import funcimage from '@site/static/img/documenter/verilog/functions.png'
+import typedefimage from '@site/static/img/documenter/verilog/typedef.png'
+
+export const CreateAll = ({elements}) =>(
+    <>
+{
+  elements.map((el) => {
+    let newitm = {
+        value: el["name"],
+        id: el["name"].toLowerCase(),
+        level: 3,
+    };
+    let exists = toc.find((tocid)=>{return tocid["id"]==newitm["id"]})
+    if(exists==undefined){
+        toc.push(newitm);
+    }
+    return(
+      <Hdl name={el["name"]} image={el["impath"]} children={el["code"]} id={el["name"].toLowerCase()}/>
+    )
+  })
+}
+</>
+ )
+import TOCInline from '@theme/TOCInline';
+
+
+<CreateAll elements={verilog_elements}/>

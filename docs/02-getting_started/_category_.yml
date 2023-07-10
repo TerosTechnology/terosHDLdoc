@@ -1,0 +1,9 @@
+label: 'Getting Started'
+collapsible: true # make the category collapsible
+collapsed: true
+className: red
+link:
+  type: generated-index
+  title: Tutorial overview
+customProps:
+  description: Getting Started

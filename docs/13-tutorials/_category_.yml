@@ -1,0 +1,9 @@
+label: 'Tutorials'
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+className: red
+link:
+  type: generated-index
+  title: Tutorials
+customProps:
+  description: This description can be used in the swizzled DocCard

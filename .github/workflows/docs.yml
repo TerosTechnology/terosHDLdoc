@@ -14,17 +14,14 @@ jobs:
     steps:
 
     - name: '🧰 Checkout'
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - name: '📓 BuildTheDocs (BTD)'
-      uses: buildthedocs/btd@v0
-      with:
-        token: ${{ github.token }}
+    - name: '📓 BuildTheDocs'
+      run: |
+        npm install
+        npm run build
 
-    - name: '📤 Upload artifact: HTML and LaTeX'
-      uses: actions/upload-artifact@master
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        name: doc
-        path: |
-          doc/_build/html
-          doc/_build/latex
+        folder: build
