@@ -17,7 +17,7 @@ const config = {
   title: 'TerosHDL',
   tagline: 'An open source editor for FPGA/ASIC',
   url: 'https://terostechnology.github.io/',
-  baseUrl: '/teroshdl-docusaurus-doc',
+  baseUrl: '/terosHDLdoc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo_teroshdl.png',
