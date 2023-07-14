@@ -6,7 +6,7 @@ description: Raptor
 
 :::caution
 
-TerosHDL is compatible with Raptor 2023.04
+TerosHDL is compatible with Raptor 2023.04 (Ubuntu)
 
 :::
 
