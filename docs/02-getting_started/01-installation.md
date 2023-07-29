@@ -14,11 +14,16 @@ TerosHDL can be installed in VSCodium or VSCode. As open source alternative of V
 
 Before installing TerosHDL, you need to install some dependencies, which are software packages or libraries that the IDE relies on to function properly.
 
-### VSCodium/VSCode
+1. [VSCodicum/VSCode](./01-installation.md#1-vscodiumvscode)
+2. [Python3](./01-installation.md#2-python3)
+3. [Python3 packages](./01-installation.md#2-python3)
+4. [make](./01-installation.md#4-make)
+
+### 1. VSCodium/VSCode
 
 Install [VSCodium](https://vscodium.com/#install) or [VSCode](https://code.visualstudio.com/download)
 
-### Python3
+### 2. Python3
 
 Install Python3
 
@@ -82,7 +87,7 @@ Install Python3
     </TabItem>
 </Tabs>
 
-### Python3 package dependencies
+### 3. Python3 package dependencies
 
 Install Python package dependencies:
 
@@ -103,11 +108,11 @@ Install Python package dependencies:
 </Tabs>
 
 
-### Make
+### 4. Make
 
 :::caution
 
-You don't need to install `Make` if you are using Raptor.
+You don't need to install `Make` if you are using Raptor, VUnit or cocotb.
 
 :::
 
@@ -122,6 +127,36 @@ Install **make** in your system:
 
 <Tabs>
     <TabItem value="windows" label="Windows" default>
+    <div>
+      <ol>
+        <li>Open a Command Prompt or PowerShell with administrative privileges.</li>
+        <ul>
+          <li>Press <kbd>Win</kbd> + <kbd>X</kbd> and select "Windows Terminal (Admin)" or "Command Prompt (Admin)."</li>
+          <li>For PowerShell, right-click the Start button, choose "Windows PowerShell (Admin)."</li>
+        </ul>
+        <li>Ensure you have Chocolatey installed. If not, you can install it by running the following command:</li>
+        <pre>
+          <code>
+            Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+          </code>
+        </pre>
+        <li>Once Chocolatey is installed, you can install make by running the following command:</li>
+        <pre>
+          <code>
+            choco install make
+          </code>
+        </pre>
+        <li>Chocolatey will handle the installation process, including any dependencies make requires.</li>
+        <li>After the installation is complete, you can verify that make is installed by checking its version with this command:</li>
+        <pre>
+          <code>
+            make --version
+          </code>
+        </pre>
+      </ol>
+    </div>
+    </TabItem>
+    <TabItem value="windows_alternative" label="Windows (alternative method)" default>
       Make is a Unix-based utility and is not included in Windows by default. However, you can install Make on Windows using the following steps:<br /><br />
       1. Install a Unix-like environment such as Cygwin on your Windows system. This environment provide a Unix-like terminal and command-line tools, including Make. <br />Download and run the Cygwin installer from the official website (<a href="https://cygwin.com/install.html">https://cygwin.com/install.html</a>). During the installation process, select the packages you want to install, including Make, from the package list.
       2. Once you have installed a Unix-like environment, open the terminal or command prompt provided by that environment.<br /><br />
