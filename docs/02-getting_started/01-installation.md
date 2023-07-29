@@ -86,6 +86,9 @@ Install Python3
 
 Install Python package dependencies:
 
+- VUnit
+- Edalize
+- cocotb (optional)
 
 <Tabs>
     <TabItem value="windows" label="Windows" default>
@@ -105,6 +108,13 @@ Install Python package dependencies:
 :::caution
 
 You don't need to install `Make` if you are using Raptor.
+
+:::
+
+
+:::info
+
+To make sure that TerosHDL is getting your Make binary correctly you need to configure the installation directory in `TerosHDL configuration menu >> General >> Make installation directory`
 
 :::
 
