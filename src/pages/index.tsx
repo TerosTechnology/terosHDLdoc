@@ -22,7 +22,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">
           <p style={{display: "inline"}}>An </p>
           <p style={{color: "red", display: "inline"}}>open source </p>
-          <p style={{display: "inline"}}>editor for ASIC/FPGA</p>
+          <p style={{display: "inline"}}>toolbox for ASIC/FPGA</p>
         </p>
 
         <div className={styles.buttons}>
