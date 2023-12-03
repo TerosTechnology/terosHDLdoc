@@ -93,7 +93,7 @@ Install Python package dependencies:
 
 - VUnit
 - Edalize
-- cocotb (optional)
+- cocotb: COroutine based COsimulation TestBench environment for verifying VHDL and SystemVerilog RTL using Python. (optional)
 
 <Tabs>
     <TabItem value="windows" label="Windows" default>
