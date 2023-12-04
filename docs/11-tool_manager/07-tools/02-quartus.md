@@ -80,7 +80,7 @@ If you want to see the *Log Tabl*e first you have to open ***TEROSHDL: LOG REPOR
 
 When the task has concluded, you can open the results. There are three types:
 
-- Log table **(1)**: loads the log message table in a webview. If you click on a message with a location, the editor will take you to the corresponding file and line. You can filter by log level.
+- Log table **(1)**: loads the log message table in a webview. **If you click on a message with a location, the editor will take you to the corresponding file and line. You can filter by log level.**
 - Plain text logs **(2)**: includes reports, log messages, etc.
 - Timing Analyzer **(3)**: opens the timing analyzer.
 
