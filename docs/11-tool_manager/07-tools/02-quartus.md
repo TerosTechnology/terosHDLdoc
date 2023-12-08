@@ -13,17 +13,15 @@ TerosHDL provides a comprehensive development experience with Intel® Quartus® 
 
 ## Configuration
 
-:::caution
+As first option TerosHDL will try to get the Intel@ Quartus@ path from your settings:
 
-Currently TerosHDL configuration menu is not available for Intel@ Quartus@ projects.
+1. ```TerosHDL Settings >> Tools >> Quartus >> Installation Path```
 
-:::
+If it doesn't work TerosHDL will use the following environment variables (in order) to search for the Intel@ Quartus@ installation path:
 
-TerosHDL will use the following environment variables (in order) to search for the Intel@ Quartus@ installation path:
-
-1. `QUARTUS_ROOTDIR`. E.g: `/home/carlos/intelFPGA_pro/23.3/quartus`
-2. `QSYS_ROOTDIR`. E.g: `/home/carlos/intelFPGA_pro/23.3/qsys/bin`
-3. If both environment variables are empty TerosHDL will use the System Path.
+2. `QUARTUS_ROOTDIR`. E.g: `/home/carlos/intelFPGA_pro/23.3/quartus`
+3. `QSYS_ROOTDIR`. E.g: `/home/carlos/intelFPGA_pro/23.3/qsys/bin`
+4. If both environment variables are empty TerosHDL will use the System Path.
 
 ## Project creation
 
