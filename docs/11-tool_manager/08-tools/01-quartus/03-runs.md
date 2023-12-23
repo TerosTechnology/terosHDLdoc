@@ -1,5 +1,5 @@
 ---
-description: Getting started
+description: Project Compilation
 ---
 
 # Project compilation
