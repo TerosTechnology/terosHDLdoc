@@ -21,22 +21,35 @@ Before to run a simulation you have to execute the ***Analysis & Elaboration*** 
 
 :::
 
-1. Select the top level testbench. 
+1. Select the top level design:
 
+<p align="center">
+
+![Quartus](/img/tool_manager/tools/quartus/simulation_toplevel_design.png)
+</p>
+
+2. Set your testbench files. You can set multiple simulation files:
+
+<p align="center">
+
+![Quartus](/img/tool_manager/tools/quartus/simulation_tb_file.png)
+</p>
+
+3. Select the top level testbench. 
 
 <p align="center">
 
 ![Quartus](/img/tool_manager/tools/quartus/testbench_toplevel.png)
 </p>
 
-2. Run the test.
+4. Run the test.
 
 <p align="center">
 
 ![Quartus](/img/tool_manager/tools/quartus/simulation_run.png)
 </p>
 
-3. If you are running the simulation in batch mode you can check the results in the ***Testbench - Output*** view.
+5. If you are running the simulation in batch mode you can check the results in the ***Testbench - Output*** view.
 
 <p align="center">
 
