@@ -4,19 +4,31 @@ description: Timing Report
 
 # Timing Report
 
-After run `EarlyTiming Analysis` or `Timing Analysis (Signoff)` open the Timing Report view and click on `Show Timing Report`.
+After run `EarlyTiming Analysis` or `Timing Analysis (Signoff)` open the Timing Report view and click on `Generate Report`.
 
-- Si haces click en la fila del path se abrirá la view de Path Details.
-- En la view de Details al pulsar en la fila te llevará al módulo en el código.
-- Si haces click en la celda "From" o "To" TerosHDL abrirá el módulo y línea del path.
+<p align="center">
 
-- If you click on the path row, the `Path Details View` will open. (Green box in picture).
-    - In the `Details View`, clicking on the row will take you to the module in the code. (Blue box in the picture).
-- If you click on the `From` or `To` cell, TerosHDL will open the module and line of the path. (Blue box in the picture)
+![Quartus](/img/tool_manager/tools/quartus/timing_0.png)
+</p>
+
+- If you click on the `From` or `To` link, TerosHDL will open the module and line of the path. (Blue box in the picture)
+- If you select a path the `from`/`to` nodes will show in the editor with the path slack.
 
 
 <p align="center">
 
-![Quartus](/img/tool_manager/tools/quartus/timing.png)
+![Quartus](/img/tool_manager/tools/quartus/timing_1.png)
 </p>
+
+- Clicking on the path name link opens the `Path Details View`.
+    - Within the `Details View`, clicking a `Cell Location` navigates you to the corresponding module in the code.
+    - By selecting a path, you can view it in the editor, with the corresponding incremental delay.
+
+<p align="center">
+
+![Quartus](/img/tool_manager/tools/quartus/timing_2.png)
+</p>
+
+
+
 
