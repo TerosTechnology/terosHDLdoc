@@ -24,6 +24,8 @@ Here are the following labels supported by the documenter:
 * Instances         
 * Functions         
 * Types             
+* Type record            
+* Type enum             
 
 export const Hdl = ({name, children, image,id}) => (
     <div>
@@ -85,6 +87,16 @@ export const vhdl_elements = [
         'code': tp,
         'impath' :tpimage
     },
+    {
+        'name': "Type Record",
+        'code': tp_record,
+        'impath' :recordimage
+    },
+    {
+        'name': "Type Enum",
+        'code': tp_enum,
+        'impath' :enumimage
+    },
 ]
 
 
@@ -97,6 +109,8 @@ import constant from '!!raw-loader!./examples/vhdl/constant.vhd';
 import f from '!!raw-loader!./examples/vhdl/function.vhd';
 import process from '!!raw-loader!./examples/vhdl/process.vhd';
 import tp from '!!raw-loader!./examples/vhdl/type.vhd';
+import tp_record from '!!raw-loader!./examples/vhdl/type_record.vhd';
+import tp_enum from '!!raw-loader!./examples/vhdl/type_enum.vhd';
 
 import entityimage from '@site/static/img/documenter/vhdl/entity.png'
 import pkgimage from '@site/static/img/documenter/vhdl/port.png'
@@ -107,6 +121,8 @@ import constantimage from '@site/static/img/documenter/vhdl/constant.png'
 import fimage from '@site/static/img/documenter/vhdl/func.png'
 import processimage from '@site/static/img/documenter/vhdl/process.png'
 import tpimage from '@site/static/img/documenter/vhdl/tp.png'
+import recordimage from '@site/static/img/documenter/vhdl/record.png'
+import enumimage from '@site/static/img/documenter/vhdl/enum.png'
 
 
 
