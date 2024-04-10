@@ -2,5 +2,5 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 package mytypes is
-    type main_sm_type is (IDLE,PUSHA,PUSHB,FINISH); --! main state machine states 
+    type t_my_custom_type is range 0 to 1000; --! my custom type description
 end package;
