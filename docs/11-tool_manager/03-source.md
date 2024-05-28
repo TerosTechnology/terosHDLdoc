@@ -41,6 +41,49 @@ file_3.vhd, lib_0
 ![Project view](/img/tool_manager/source/add.png) 
 </p>
 
+## Source configuration
+
+You can configure the properties of a project source. You can set the file type, language version, and type.
+
+| Languages            | Description                         |
+|----------------------|-------------------------------------|
+| vhdlSource           | VHDL                                |                  
+| verilogSource        | Verilog                             |   
+| systemVerilogSource  | SystemVerilog                       |               
+| cSource              | C                                   |               
+| cppSource            | C++                                 |                 
+| python               | Python                              |                    
+| veribleLintRules     | Verible Linter Rules                |         
+| tclSource            | TCL                                 |                 
+| xdc                  | Xilinx Vivado constraint file       |                  
+| sdc                  | Constraints File                    |     
+| pin                  | Pin declaration                     |    
+| xci                  | Xilinx Vivado IP file               |          
+| sbyConfigTemplate    | SymbiYosys                          |                        
+| osvvmProject         | OSVVM Project                       |  
+| QIP                  | Intel Quartus IP file               |                       
+| UCF                  | Xilinx ISE constraint file          |                            
+| IP                   | IP declaration                      |                            
+| QSYS                 | Quartus IP                          |                        
+| none                 |                                     |   
+
+
+| Languages            | Versions       |
+|----------------------|----------------|
+| VHDL                 | 2008, 2000, 93 |
+| Verilog/SV           | 2005, 2000     |
+
+| Source Type          | Versions               |
+|----------------------|------------------------|
+| Simulation           | Testbenches            |
+| Synthesis            | Synthesizable Sources  |
+| None                 | Not specified          |
+
+
+<p align="center">
+
+![Project view](/img/tool_manager/source/sourceConfiguration.png) 
+</p>
 
 ## Adding library
 
