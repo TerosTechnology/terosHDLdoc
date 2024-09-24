@@ -1,5 +1,5 @@
 ---
-description: Formatter
+description: It ensures clean and consistent code structure by automatically adjusting it according to best practices.
 id: formatter
 ---
 

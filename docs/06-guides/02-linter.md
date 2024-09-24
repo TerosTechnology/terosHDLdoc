@@ -1,6 +1,6 @@
 ---
-description: Linting (errors checking)
-id: errors_checking
+description: The linter provides real-time feedback to detect and highlight errors in your HDL code.
+id: Linting (errors checking)
 ---
 
 # Linting (errors checking)

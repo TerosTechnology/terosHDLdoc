@@ -1,6 +1,6 @@
 ---
-description: Linting (style checking)
-id: style_checking
+description: The style linter focuses on ensuring that your code follows consistent styling guidelines.
+id: Linting (style checking)
 ---
 
 # Linting (style checking)

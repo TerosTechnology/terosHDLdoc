@@ -1,8 +1,10 @@
 ---
-description: Generate a template
+description: Powerful feature for the intelligent generation of templates, allowing users to quickly create testbenches and entity skeletons.
 ---
 
 # Templates
+
+TerosHDL includes a powerful feature for the intelligent generation of templates, allowing users to quickly create testbenches and entity skeletons. The system automatically adapts to the specific context and design, offering a customized template that reduces manual work and increases productivity. Here is a table with the list of templates according to the language: 
 
 <p align="center">
 

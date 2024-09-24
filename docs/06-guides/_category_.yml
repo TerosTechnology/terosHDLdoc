@@ -1,0 +1,8 @@
+label: 'Guides'
+collapsible: true # make the category collapsible
+collapsed: true
+className: red
+link:
+  type: generated-index
+  title: Guides
+  description: Guides to the Most Important Features of TerosHDL
