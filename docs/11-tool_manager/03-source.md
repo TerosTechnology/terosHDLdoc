@@ -31,9 +31,9 @@ file_2.vhd
 or
 
 ```
-file_1.vhd, lib_0
+lib_0, file_1.vhd
 file_2.vhd
-file_3.vhd, lib_0
+lib_0, file_3.vhd
 ```
 
 <p align="center">
