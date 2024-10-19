@@ -39,7 +39,7 @@ in the top right corner of the editor:
 1. [Code Formatting](../06-guides/06-formatter.md)
 2. [Auto Documentation](../06-guides/05-documenter/01-getting_started.md)
 3. [Schematic Viewer](../06-guides/08-schematic_viewer/01-installation.md)
-4. [State Machine Viewer](../06-guides/07-state_machine_viewe)
+4. [State Machine Viewer](../06-guides/07-state_machine_viewer/01-usage.md)
 5. [Template Generator: testbenches, entity...](../06-guides/04-templates.md)
 
 <center>

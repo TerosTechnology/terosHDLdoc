@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Verify Setup
 
-Once you have installed all the [requirements](./01-requirements.md) and configured TerosHDL, you can validate your setup.
+Once you have installed all the [requirements](./01-prerequisites.md) and configured TerosHDL, you can validate your setup.
 
 1. Open the Command Palette:
 

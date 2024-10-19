@@ -11,7 +11,7 @@ After adding a project, you need to select it as the current active project and 
 ![Quartus](/img/tool_manager/tools/quartus/select_project.png)
 </p>
 
-You can add sources either from the Intel® Quartus® application or from TerosHDL ([go to the section](../../01-started.md#adding-sources)).
+You can add sources either from the Intel® Quartus® application or from TerosHDL ([go to the section](../../04-project_configuration/03-sources.md#adding-sources-to-a-project)).
 
 ## Tasks manager
 
