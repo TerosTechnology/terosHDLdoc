@@ -1,0 +1,6 @@
+label: 'Schematic Viewer'
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+className: red
+description: Displays HDL designs as schematics, providing a clear visual representation of circuit structures.
+

@@ -1,0 +1,6 @@
+label: 'State Machine Viewer'
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+className: red
+description: Visualizes FSMs, allowing for easier analysis and debugging of system behavior.
+

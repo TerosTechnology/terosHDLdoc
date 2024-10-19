@@ -1,0 +1,39 @@
+---
+description: Getting Started
+---
+
+import Mermaid from '@theme/Mermaid';
+import DocCardList from '@theme/DocCardList';
+
+# Setting up a Project
+
+<DocCardList />
+
+
+While it is possible to work without using TerosHDL projects, utilizing them unlocks the full range of functionalities. Once your project is set up, you can leverage the entire spectrum of features such as:
+
+- Error checking.
+- Jump to the definition of signals, ports, etc.
+- Dependency viewer.
+- Hierarchy.
+- Running external tools: simulators, compilers...
+
+In the following sections, you'll see how to create a project, add libraries/files, and everything necessary to manage it.
+Here you can see a general workflow, but go to each section for more detailed information:
+
+<center>
+<Mermaid
+  value={`
+  graph TD
+      A(Create/load a project) --> B(Select the project as current)
+      B --> C(Add/load files and libraries)
+      C --> D[Select our top level file]
+      D --> D0(Check the hierarchy)
+      D --> D1(Show the dependencies diagram)
+      D --> D2(Run an external tool)
+      style D0 stroke-dasharray: 5 5
+      style D1 stroke-dasharray: 5 5
+      style D2 stroke-dasharray: 5 5
+    `}
+/>
+</center>
