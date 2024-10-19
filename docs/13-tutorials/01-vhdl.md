@@ -18,7 +18,7 @@ One of the key benefits of GHDL is that it can be used for both compilation and 
 
 ## Requirements
 
-Follow all the steps to install [TerosHDL and the requirements](../02-getting_started/01-installation.md)
+Follow all the steps to install [TerosHDL and the requirements](../02-installation_checklist/01-prerequisites.md)
 
 ## GHDL installation
 

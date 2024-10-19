@@ -6,7 +6,7 @@ description: Getting Started
 
 ## Tutorial
 
-You have [some examples](https://github.com/TerosTechnology/teroshdl-examples/tree/main/documenter/examples). Or you can add a project with all the samples from the TerosHDL project manager using [Load Example](../11-tool_manager/02-project.md#adding-a-project)
+You have [some examples](https://github.com/TerosTechnology/teroshdl-examples/tree/main/documenter/examples). Or you can add a project with all the samples from the TerosHDL project manager using [Load Example](../../04-project_configuration/02-project.md#creating-and-importing-projects)
 
 ## Configuration
 

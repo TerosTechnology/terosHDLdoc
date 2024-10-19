@@ -37,11 +37,11 @@ Here you can see a diagram of how to install the requirements to use TerosHDL wi
 
 Before installing TerosHDL, you need to install some dependencies, which are software packages or libraries that the IDE relies on to function properly.
 
-1. [VSCodicum/VSCode](./01-requirements.md#1-vscodiumvscode)
-2. [Python3](./01-requirements.md#2-python3)
-3. [Python3 packages](./01-requirements.md#2-python3)
-4. [make](./01-requirements.md#4-make)
-5. [EDA Tools](./01-requirements.md#5-eda-tools)
+1. [VSCodicum/VSCode](#1-vscodiumvscode)
+2. [Python3](#2-python3)
+3. [Python3 packages](#3-python3-package-dependencies)
+4. [make](#4-make)
+5. [EDA Tools](#5-eda-tools)
 
 ## 1. VSCodium/VSCode
 
