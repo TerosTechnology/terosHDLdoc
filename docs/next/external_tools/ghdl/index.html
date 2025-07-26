@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-external_tools/ghdl" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.2">
+<title data-rh="true">GHDL | TerosHDL</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://terostechnology.github.io/terosHDLdoc/docs/next/external_tools/ghdl"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="GHDL | TerosHDL"><meta data-rh="true" name="description" content="GHDL"><meta data-rh="true" property="og:description" content="GHDL"><link data-rh="true" rel="icon" href="/terosHDLdoc/img/logo_teroshdl.png"><link data-rh="true" rel="canonical" href="https://terostechnology.github.io/terosHDLdoc/docs/next/external_tools/ghdl"><link data-rh="true" rel="alternate" href="https://terostechnology.github.io/terosHDLdoc/docs/next/external_tools/ghdl" hreflang="en"><link data-rh="true" rel="alternate" href="https://terostechnology.github.io/terosHDLdoc/docs/next/external_tools/ghdl" hreflang="x-default"><link rel="stylesheet" href="/terosHDLdoc/assets/css/styles.07999a05.css">
+<script src="/terosHDLdoc/assets/js/runtime~main.535a533e.js" defer="defer"></script>
+<script src="/terosHDLdoc/assets/js/main.46b9738e.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/terosHDLdoc/"><div class="navbar__logo"><img src="/terosHDLdoc/img/teroshdl.png" alt="TerosHDL Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/terosHDLdoc/img/teroshdl.png" alt="TerosHDL Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate"></b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/terosHDLdoc/docs/next/intro">Documentation</a><div class="navbar__item dropdown dropdown--hoverable"><a aria-current="page" class="navbar__link active" aria-haspopup="true" aria-expanded="false" role="button" href="/terosHDLdoc/docs/next/external_tools/ghdl">8.0.0 (Next)</a><ul class="dropdown__menu"><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/terosHDLdoc/docs/next/external_tools/ghdl">8.0.0 (Next)</a></li><li><a class="dropdown__link" href="/terosHDLdoc/docs/intro">7.0.3</a></li></ul></div></div><div class="navbar__items navbar__items--right"><a href="https://github.com/TerosTechnology/vscode-terosHDL" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input"><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/terosHDLdoc/docs/next/intro">What is TerosHDL?</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/terosHDLdoc/docs/next/category/installation-checklist">Installation Checklist</a><button aria-label="Expand sidebar category &#x27;Installation Checklist&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/terosHDLdoc/docs/next/category/getting-started">Getting Started</a><button aria-label="Expand sidebar category &#x27;Getting Started&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/terosHDLdoc/docs/next/project_configuration/">Setting up a Project</a><button aria-label="Expand sidebar category &#x27;Setting up a Project&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/terosHDLdoc/docs/next/category/guides">Guides</a><button aria-label="Expand sidebar category &#x27;Guides&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/terosHDLdoc/docs/next/external_tools/">External Tools Integration</a><button aria-label="Collapse sidebar category &#x27;External Tools Integration&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/terosHDLdoc/docs/next/external_tools/run">Running an External Tool</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/terosHDLdoc/docs/next/category/quartus">Quartus</a><button aria-label="Expand sidebar category &#x27;Quartus&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/terosHDLdoc/docs/next/external_tools/raptor">Raptor</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/terosHDLdoc/docs/next/external_tools/ghdl">GHDL</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed red"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/terosHDLdoc/docs/next/category/tutorials">Tutorials</a><button aria-label="Expand sidebar category &#x27;Tutorials&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/terosHDLdoc/docs/next/development">Development: backend</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="theme-doc-version-banner alert alert--warning margin-bottom--md" role="alert"><div>This is unreleased documentation for <!-- -->TerosHDL<!-- --> <b>8.0.0 (Next)</b> version.</div><div class="margin-top--md">For up-to-date documentation, see the <b><a href="/terosHDLdoc/docs/intro">latest version</a></b> (<!-- -->7.0.3<!-- -->).</div></div><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/terosHDLdoc/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/terosHDLdoc/docs/next/external_tools/"><span itemprop="name">External Tools Integration</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">GHDL</span><meta itemprop="position" content="2"></li></ul></nav><span class="theme-doc-version-badge badge badge--secondary">Version: 8.0.0 (Next)</span><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>GHDL</h1></header>
+<p>TerosHDL provides comprehensive integration with GHDL (GHDL VHDL compiler and simulator), offering both configuration options and automated tasks for VHDL development. This guide explains how to use GHDL effectively within TerosHDL.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="table-of-contents">Table of Contents<a href="#table-of-contents" class="hash-link" aria-label="Direct link to Table of Contents" title="Direct link to Table of Contents">​</a></h2>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#getting-started">Getting Started</a></li>
+<li><a href="#tasks">Tasks</a>
+<ul>
+<li><a href="#ghdl-check-syntax">GHDL Check Syntax</a></li>
+<li><a href="#ghdl-run-all">GHDL Run All</a></li>
+<li><a href="#individual-tasks">Individual Tasks</a></li>
+</ul>
+</li>
+<li><a href="#understanding-the-workflow">Understanding the Workflow</a></li>
+<li><a href="#configuration-options">Configuration Options</a></li>
+<li><a href="#usage-examples">Usage Examples</a></li>
+<li><a href="#troubleshooting">Troubleshooting</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<p>GHDL is a free and open-source VHDL compiler and simulator. TerosHDL integrates GHDL to provide a complete VHDL development environment with:</p>
+<ul>
+<li><strong>Syntax checking</strong> without code generation</li>
+<li><strong>Analysis and compilation</strong> of VHDL files</li>
+<li><strong>Elaboration</strong> of designs</li>
+<li><strong>Simulation</strong> with automatic waveform generation</li>
+<li><strong>Comprehensive configuration</strong> options</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/terosHDLdoc/assets/images/main-cc21e77efb123d80b39c07017f7fe36c.png" width="658" height="1151" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
+<ol>
+<li><strong>Install GHDL</strong> on your system or specify the installation path in TerosHDL settings</li>
+<li><strong>Create or open a VHDL project</strong> in TerosHDL</li>
+<li><strong>Add your VHDL files</strong> to the project</li>
+<li><strong>Specify the top-level entity</strong> for simulation</li>
+<li><strong>Use the tasks</strong> to compile and simulate your design</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tasks">Tasks<a href="#tasks" class="hash-link" aria-label="Direct link to Tasks" title="Direct link to Tasks">​</a></h2>
+<p>TerosHDL provides several GHDL tasks accessible through the Tasks panel. These tasks automate the VHDL development workflow from syntax checking to simulation.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ghdl-check-syntax">GHDL Check Syntax<a href="#ghdl-check-syntax" class="hash-link" aria-label="Direct link to GHDL Check Syntax" title="Direct link to GHDL Check Syntax">​</a></h3>
+<p><strong>What it does</strong>: Performs fast syntax checking of your VHDL files without generating any code or updating libraries.</p>
+<p><strong>When to use</strong>:</p>
+<ul>
+<li>Before starting compilation to catch syntax errors early</li>
+<li>During development to quickly validate code changes</li>
+<li>When you want to check code without affecting your project libraries</li>
+</ul>
+<p><strong>How it works</strong>:</p>
+<ul>
+<li>Scans all VHDL files in your project</li>
+<li>Uses the VHDL standard detected from your files (or forces a specific one if configured)</li>
+<li>Groups files by their logical libraries</li>
+<li>Reports syntax errors immediately</li>
+<li>Does not generate any output files</li>
+</ul>
+<p><strong>Benefits</strong>:</p>
+<ul>
+<li><strong>Fast feedback</strong> - much quicker than full compilation</li>
+<li><strong>Non-invasive</strong> - doesn&#x27;t modify your project libraries</li>
+<li><strong>Early error detection</strong> - catch problems before simulation</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/terosHDLdoc/assets/images/checkSyntax-baa0fd1297930f2a2e939a8705e7e597.png" width="2503" height="1478" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ghdl-run-all">GHDL Run All<a href="#ghdl-run-all" class="hash-link" aria-label="Direct link to GHDL Run All" title="Direct link to GHDL Run All">​</a></h3>
+<p><strong>What it does</strong>: Executes the complete VHDL workflow from compilation to simulation in the correct order.</p>
+<p><strong>When to use</strong>:</p>
+<ul>
+<li>When you want to compile and simulate your complete design</li>
+<li>For final testing before deployment</li>
+<li>When you need waveform output for debugging</li>
+</ul>
+<p><strong>The workflow includes three sequential steps</strong>:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="1-ghdl-analyze">1. GHDL Analyze<a href="#1-ghdl-analyze" class="hash-link" aria-label="Direct link to 1. GHDL Analyze" title="Direct link to 1. GHDL Analyze">​</a></h4>
+<p><strong>Purpose</strong>: Compiles VHDL files and builds/updates the library database.</p>
+<p><strong>What happens</strong>:</p>
+<ul>
+<li>Processes files grouped by logical library</li>
+<li>Compiles each file and checks for errors</li>
+<li>Updates the library database with compiled entities, architectures, and packages</li>
+<li>Ensures all dependencies are properly analyzed</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="2-ghdl-elaborate">2. GHDL Elaborate<a href="#2-ghdl-elaborate" class="hash-link" aria-label="Direct link to 2. GHDL Elaborate" title="Direct link to 2. GHDL Elaborate">​</a></h4>
+<p><strong>Purpose</strong>: Links the design and prepares it for simulation.</p>
+<p><strong>What happens</strong>:</p>
+<ul>
+<li>Takes your top-level entity and traces all its dependencies</li>
+<li>Resolves all component instantiations and port mappings</li>
+<li>Creates an executable simulation model</li>
+<li>Performs binding checks and optimizations</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="3-ghdl-simulate">3. GHDL Simulate<a href="#3-ghdl-simulate" class="hash-link" aria-label="Direct link to 3. GHDL Simulate" title="Direct link to 3. GHDL Simulate">​</a></h4>
+<p><strong>Purpose</strong>: Runs the actual simulation and generates results.</p>
+<p><strong>What happens</strong>:</p>
+<ul>
+<li><strong>Automatically removes old waveform files</strong> (<code>wave.*</code>) to ensure clean results</li>
+<li>Executes the simulation with your configured time limits</li>
+<li>Generates waveform files in your chosen format (VCD, GHW, or FST)</li>
+<li>Applies all run-time options and signal tracing</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/terosHDLdoc/assets/images/run-2fccd59e7b14490bb2d5fd3b32130df9.png" width="2503" height="1478" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="individual-tasks">Individual Tasks<a href="#individual-tasks" class="hash-link" aria-label="Direct link to Individual Tasks" title="Direct link to Individual Tasks">​</a></h3>
+<p>You can also run the components of &quot;GHDL Run All&quot; individually:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ghdl-analyze-standalone">GHDL Analyze (Standalone)<a href="#ghdl-analyze-standalone" class="hash-link" aria-label="Direct link to GHDL Analyze (Standalone)" title="Direct link to GHDL Analyze (Standalone)">​</a></h4>
+<p>Run only the analysis/compilation step. Useful when:</p>
+<ul>
+<li>You want to check compilation without simulation</li>
+<li>You&#x27;re working on library packages that other files depend on</li>
+<li>You need to update libraries after code changes</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ghdl-elaborate-standalone">GHDL Elaborate (Standalone)<a href="#ghdl-elaborate-standalone" class="hash-link" aria-label="Direct link to GHDL Elaborate (Standalone)" title="Direct link to GHDL Elaborate (Standalone)">​</a></h4>
+<p>Run only the elaboration step. Useful when:</p>
+<ul>
+<li>Analysis is already complete</li>
+<li>You want to test design binding without simulation</li>
+<li>You&#x27;re debugging elaboration-specific issues</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ghdl-simulate-standalone">GHDL Simulate (Standalone)<a href="#ghdl-simulate-standalone" class="hash-link" aria-label="Direct link to GHDL Simulate (Standalone)" title="Direct link to GHDL Simulate (Standalone)">​</a></h4>
+<p>Run only the simulation step. Useful when:</p>
+<ul>
+<li>Analysis and elaboration are already complete</li>
+<li>You want to re-run simulation with different parameters</li>
+<li>You&#x27;re experimenting with different simulation settings</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="open-waveform">Open Waveform<a href="#open-waveform" class="hash-link" aria-label="Direct link to Open Waveform" title="Direct link to Open Waveform">​</a></h4>
+<p><strong>Purpose</strong>: Opens the generated waveform files in your configured viewer.</p>
+<p><strong>What it does</strong>:</p>
+<ul>
+<li>Searches for waveform files (<code>.vcd</code>, <code>.ghw</code>, <code>.fst</code>) in the project directory</li>
+<li>Opens the found waveform files using your configured viewer</li>
+<li>Provides easy access to simulation results</li>
+</ul>
+<p><strong>When to use</strong>:</p>
+<ul>
+<li>After running a simulation to view waveform results</li>
+<li>To re-open waveform files from previous simulations</li>
+<li>When you want to analyze timing and signal behavior</li>
+</ul>
+<p><strong>Supported viewers</strong>:</p>
+<ul>
+<li><strong>GTKWave</strong> - External professional waveform viewer</li>
+<li><strong>VaporView</strong> - VS Code extension for waveform viewing</li>
+<li><strong>Built-in tool viewers</strong> - When available</li>
+</ul>
+<p><strong>Supported formats</strong>: GHW, VCD, FST</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/terosHDLdoc/assets/images/waveform-0e89ff384345d582be6417121eb53399.png" width="2503" height="1478" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-the-workflow">Understanding the Workflow<a href="#understanding-the-workflow" class="hash-link" aria-label="Direct link to Understanding the Workflow" title="Direct link to Understanding the Workflow">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-vhdl-development-cycle">The VHDL Development Cycle<a href="#the-vhdl-development-cycle" class="hash-link" aria-label="Direct link to The VHDL Development Cycle" title="Direct link to The VHDL Development Cycle">​</a></h3>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">1. Write/Edit VHDL Code</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. Check Syntax (optional but recommended)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. Analyze → Elaborate → Simulate</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4. View Waveforms</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">5. Debug and Iterate</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="when-to-use-each-task">When to Use Each Task<a href="#when-to-use-each-task" class="hash-link" aria-label="Direct link to When to Use Each Task" title="Direct link to When to Use Each Task">​</a></h3>
+<table><thead><tr><th>Task</th><th>Use Case</th><th>Speed</th><th>Output</th></tr></thead><tbody><tr><td><strong>Check Syntax</strong></td><td>Quick validation during development</td><td>Very Fast</td><td>Error reports only</td></tr><tr><td><strong>Analyze</strong></td><td>After code changes, library updates</td><td>Fast</td><td>Updated libraries</td></tr><tr><td><strong>Elaborate</strong></td><td>Test design binding and connectivity</td><td>Fast</td><td>Simulation model</td></tr><tr><td><strong>Simulate</strong></td><td>Generate results and waveforms</td><td>Moderate</td><td>Waveforms, logs</td></tr><tr><td><strong>Run All</strong></td><td>Complete workflow, final testing</td><td>Full time</td><td>Complete results</td></tr><tr><td>c</td><td></td><td></td><td></td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configuration-options">Configuration Options<a href="#configuration-options" class="hash-link" aria-label="Direct link to Configuration Options" title="Direct link to Configuration Options">​</a></h2>
+<p>All GHDL settings are accessible through TerosHDL&#x27;s configuration interface.</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="/terosHDLdoc/assets/images/config-09d52a71cc992e9de44b1b922fb15097.png" width="2503" height="1478" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic-configuration">Basic Configuration<a href="#basic-configuration" class="hash-link" aria-label="Direct link to Basic Configuration" title="Direct link to Basic Configuration">​</a></h3>
+<p><strong>Installation Path</strong>: Specify where GHDL is installed on your system</p>
+<ul>
+<li>Leave empty to use system PATH</li>
+<li>Required if GHDL is not in your system PATH</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vhdl-language-settings">VHDL Language Settings<a href="#vhdl-language-settings" class="hash-link" aria-label="Direct link to VHDL Language Settings" title="Direct link to VHDL Language Settings">​</a></h3>
+<p><strong>VHDL Standard Version</strong>: Control which VHDL standard to use</p>
+<ul>
+<li><code>Auto-detect from file</code>: Automatically detect from your VHDL files (recommended)</li>
+<li><code>Force VHDL-87/93/2002/2008/2019</code>: Override with specific standard</li>
+</ul>
+<p><strong>IEEE Library</strong>: Choose IEEE library implementation</p>
+<ul>
+<li><code>Standard IEEE</code>: Standard IEEE implementation</li>
+<li><code>Synopsys IEEE</code>: Synopsys IEEE implementation</li>
+</ul>
+<p><strong>Relaxed Parsing</strong>: Enable more lenient VHDL parsing rules</p>
+<p><strong>Unicode Support</strong>: Allow Unicode identifiers in your VHDL code</p>
+<p><strong>PSL Support</strong>: Enable Property Specification Language features</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="library-management">Library Management<a href="#library-management" class="hash-link" aria-label="Direct link to Library Management" title="Direct link to Library Management">​</a></h3>
+<p><strong>Work Library</strong>: Name of the default working library (usually &quot;work&quot;)</p>
+<p><strong>Library Paths</strong>: Additional directories to search for VHDL libraries</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stage-specific-options">Stage-Specific Options<a href="#stage-specific-options" class="hash-link" aria-label="Direct link to Stage-Specific Options" title="Direct link to Stage-Specific Options">​</a></h3>
+<p><strong>Check Syntax Options</strong>: Additional flags for syntax checking (<code>ghdl -s</code>)</p>
+<p><strong>Analyze Options</strong>: Extra options for compilation (<code>ghdl -a</code>)</p>
+<p><strong>Elaborate Options</strong>: Additional flags for elaboration (<code>ghdl -e</code>)</p>
+<p><strong>Run Options</strong>: Simulation parameters (<code>ghdl -r</code>)</p>
+<p><strong>Synthesis Options</strong>: Options for synthesis (<code>ghdl --synth</code>)</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="simulation-settings">Simulation Settings<a href="#simulation-settings" class="hash-link" aria-label="Direct link to Simulation Settings" title="Direct link to Simulation Settings">​</a></h3>
+<p><strong>Simulation Time</strong>: Set maximum simulation time (e.g., &quot;1ms&quot;, &quot;500ns&quot;)</p>
+<p><strong>Resolution Limit</strong>: Set time precision (e.g., &quot;1ps&quot;, &quot;1ns&quot;)</p>
+<p><strong>Stack Size</strong>: Memory allocation for simulation</p>
+<p><strong>Stop Delta Cycles</strong>: Limit delta cycle iterations</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="waveform-output">Waveform Output<a href="#waveform-output" class="hash-link" aria-label="Direct link to Waveform Output" title="Direct link to Waveform Output">​</a></h3>
+<p><strong>Waveform Enabled</strong>: Enable/disable waveform generation</p>
+<p><strong>Waveform Format</strong>: Choose output format</p>
+<ul>
+<li><code>VCD</code>: Value Change Dump (widely supported)</li>
+<li><code>GHW</code>: GHDL native format (most detailed)</li>
+<li><code>FST</code>: Fast Signal Database (compact)</li>
+</ul>
+<p><strong>Waveform Options</strong>: Additional waveform generation parameters</p>
+<p><strong>Advanced Waveform Settings</strong>:</p>
+<ul>
+<li>Wave start time recording</li>
+<li>VCD 4-state format</li>
+<li>Signal filtering options</li>
+<li>Custom wave option files</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="debug-and-analysis">Debug and Analysis<a href="#debug-and-analysis" class="hash-link" aria-label="Direct link to Debug and Analysis" title="Direct link to Debug and Analysis">​</a></h3>
+<p><strong>Debug Level</strong>: Control amount of debug information</p>
+<ul>
+<li><code>No debug info</code>: Fastest execution</li>
+<li><code>Minimal debug info</code>: Basic information</li>
+<li><code>Full debug info</code>: Detailed debugging</li>
+</ul>
+<p><strong>Verbose Output</strong>: Enable detailed command output</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="error-and-warning-handling">Error and Warning Handling<a href="#error-and-warning-handling" class="hash-link" aria-label="Direct link to Error and Warning Handling" title="Direct link to Error and Warning Handling">​</a></h3>
+<p><strong>Warnings as Errors</strong>: Treat warnings as compilation errors</p>
+<p><strong>Suppress Warnings</strong>: Specify warning types to ignore</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="assertions-and-verification">Assertions and Verification<a href="#assertions-and-verification" class="hash-link" aria-label="Direct link to Assertions and Verification" title="Direct link to Assertions and Verification">​</a></h3>
+<p><strong>Assert Level</strong>: Control assertion sensitivity</p>
+<ul>
+<li><code>Note/Warning/Error/Failure level</code>: Different sensitivity levels</li>
+<li><code>Disable assertions</code>: Turn off assertion checking</li>
+</ul>
+<p><strong>Display Options</strong>: Show timing and delta cycle information</p>
+<p><strong>Backtrace Settings</strong>: Control error backtrace generation</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ieee-standards-compliance">IEEE Standards Compliance<a href="#ieee-standards-compliance" class="hash-link" aria-label="Direct link to IEEE Standards Compliance" title="Direct link to IEEE Standards Compliance">​</a></h3>
+<p><strong>IEEE Asserts</strong>: Control IEEE assertion handling</p>
+<p><strong>Asserts Policy</strong>: Policy for handling assertions during simulation</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-features">Advanced Features<a href="#advanced-features" class="hash-link" aria-label="Direct link to Advanced Features" title="Direct link to Advanced Features">​</a></h3>
+<p><strong>File I/O and External Interfaces</strong>:</p>
+<ul>
+<li>SDF file support for timing annotation</li>
+<li>VPI/VHPI module loading</li>
+<li>External trace file generation</li>
+<li>PSL reporting options</li>
+</ul>
+<p><strong>Display and Hierarchy</strong>:</p>
+<ul>
+<li>Design hierarchy display options</li>
+<li>Signal and port visualization</li>
+<li>Process and instance information</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="usage-examples">Usage Examples<a href="#usage-examples" class="hash-link" aria-label="Direct link to Usage Examples" title="Direct link to Usage Examples">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic-workflow-example">Basic Workflow Example<a href="#basic-workflow-example" class="hash-link" aria-label="Direct link to Basic Workflow Example" title="Direct link to Basic Workflow Example">​</a></h3>
+<ol>
+<li>
+<p><strong>Setup your project</strong>:</p>
+<ul>
+<li>Ensure GHDL is installed and configured</li>
+<li>Add your VHDL files to the project</li>
+<li>Set the top-level entity</li>
+</ul>
+</li>
+<li>
+<p><strong>Quick syntax check</strong>:</p>
+<ul>
+<li>Run &quot;GHDL Check Syntax&quot; to catch any syntax errors</li>
+<li>Fix any reported issues</li>
+</ul>
+</li>
+<li>
+<p><strong>Full simulation</strong>:</p>
+<ul>
+<li>Run &quot;GHDL Run All&quot; to compile and simulate</li>
+<li>Wait for completion (monitor progress in Tasks panel)</li>
+</ul>
+</li>
+<li>
+<p><strong>View results</strong>:</p>
+<ul>
+<li>Click &quot;Open Waveform&quot; to view simulation results</li>
+<li>Analyze signals and timing in the waveform viewer</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="troubleshooting">Troubleshooting<a href="#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="common-issues-and-solutions">Common Issues and Solutions<a href="#common-issues-and-solutions" class="hash-link" aria-label="Direct link to Common Issues and Solutions" title="Direct link to Common Issues and Solutions">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ghdl-not-found">GHDL Not Found<a href="#ghdl-not-found" class="hash-link" aria-label="Direct link to GHDL Not Found" title="Direct link to GHDL Not Found">​</a></h4>
+<p><strong>Problem</strong>: Error message &quot;ghdl: command not found&quot;
+<strong>Solutions</strong>:</p>
+<ul>
+<li>Install GHDL on your system</li>
+<li>Add GHDL to your system PATH</li>
+<li>Set the correct installation path in TerosHDL configuration</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="no-top-level-entity">No Top-Level Entity<a href="#no-top-level-entity" class="hash-link" aria-label="Direct link to No Top-Level Entity" title="Direct link to No Top-Level Entity">​</a></h4>
+<p><strong>Problem</strong>: &quot;No top level entity specified&quot;
+<strong>Solutions</strong>:</p>
+<ul>
+<li>Specify the top-level entity in your project settings</li>
+<li>Ensure the entity name exactly matches your VHDL file</li>
+<li>Check that the entity is properly declared</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="compilation-errors">Compilation Errors<a href="#compilation-errors" class="hash-link" aria-label="Direct link to Compilation Errors" title="Direct link to Compilation Errors">​</a></h4>
+<p><strong>Problem</strong>: Analysis or elaboration fails
+<strong>Solutions</strong>:</p>
+<ul>
+<li>Run &quot;GHDL Check Syntax&quot; first to identify syntax issues</li>
+<li>Verify VHDL standard settings match your code</li>
+<li>Check library dependencies and include paths</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="no-waveform-generated">No Waveform Generated<a href="#no-waveform-generated" class="hash-link" aria-label="Direct link to No Waveform Generated" title="Direct link to No Waveform Generated">​</a></h4>
+<p><strong>Problem</strong>: Simulation completes but no waveform file appears
+<strong>Solutions</strong>:</p>
+<ul>
+<li>Enable &quot;Waveform Enabled&quot; in configuration</li>
+<li>Check &quot;Run Options&quot; for waveform generation parameters</li>
+<li>Verify simulation actually ran (check for error messages)</li>
+<li>Ensure you have write permissions in the project directory</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="library-issues">Library Issues<a href="#library-issues" class="hash-link" aria-label="Direct link to Library Issues" title="Direct link to Library Issues">​</a></h4>
+<p><strong>Problem</strong>: &quot;Library not found&quot; errors
+<strong>Solutions</strong>:</p>
+<ul>
+<li>Check library path configuration</li>
+<li>Verify library directory structure</li>
+<li>Ensure all required libraries are properly compiled</li>
+<li>Check file library assignments</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="performance-tips">Performance Tips<a href="#performance-tips" class="hash-link" aria-label="Direct link to Performance Tips" title="Direct link to Performance Tips">​</a></h3>
+<ol>
+<li><strong>Use syntax checking</strong> during development to catch errors early</li>
+<li><strong>Enable appropriate debug level</strong> (minimal for faster execution)</li>
+<li><strong>Set reasonable simulation time limits</strong> for large designs</li>
+<li><strong>Use efficient waveform formats</strong> (FST for large simulations)</li>
+<li><strong>Organize libraries efficiently</strong> to minimize compilation time</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="getting-help">Getting Help<a href="#getting-help" class="hash-link" aria-label="Direct link to Getting Help" title="Direct link to Getting Help">​</a></h3>
+<ul>
+<li><strong>Check the terminal output</strong> for detailed error messages and warnings</li>
+<li><strong>Use verbose mode</strong> for more diagnostic information</li>
+<li><strong>Start with simple examples</strong> to verify your setup</li>
+<li><strong>Check GHDL documentation</strong> for command-line option details</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-resources">Additional Resources<a href="#additional-resources" class="hash-link" aria-label="Direct link to Additional Resources" title="Direct link to Additional Resources">​</a></h2>
+<ul>
+<li><a href="https://ghdl.readthedocs.io/" target="_blank" rel="noopener noreferrer">GHDL Official Documentation</a></li>
+<li><a href="http://gtkwave.sourceforge.net/" target="_blank" rel="noopener noreferrer">GTKWave User Guide</a></li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11-external_tools/04-ghdl.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/terosHDLdoc/docs/next/external_tools/raptor"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Raptor</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/terosHDLdoc/docs/next/category/tutorials"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Tutorials</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#table-of-contents" class="table-of-contents__link toc-highlight">Table of Contents</a></li><li><a href="#overview" class="table-of-contents__link toc-highlight">Overview</a></li><li><a href="#getting-started" class="table-of-contents__link toc-highlight">Getting Started</a></li><li><a href="#tasks" class="table-of-contents__link toc-highlight">Tasks</a><ul><li><a href="#ghdl-check-syntax" class="table-of-contents__link toc-highlight">GHDL Check Syntax</a></li><li><a href="#ghdl-run-all" class="table-of-contents__link toc-highlight">GHDL Run All</a></li><li><a href="#individual-tasks" class="table-of-contents__link toc-highlight">Individual Tasks</a></li></ul></li><li><a href="#understanding-the-workflow" class="table-of-contents__link toc-highlight">Understanding the Workflow</a><ul><li><a href="#the-vhdl-development-cycle" class="table-of-contents__link toc-highlight">The VHDL Development Cycle</a></li><li><a href="#when-to-use-each-task" class="table-of-contents__link toc-highlight">When to Use Each Task</a></li></ul></li><li><a href="#configuration-options" class="table-of-contents__link toc-highlight">Configuration Options</a><ul><li><a href="#basic-configuration" class="table-of-contents__link toc-highlight">Basic Configuration</a></li><li><a href="#vhdl-language-settings" class="table-of-contents__link toc-highlight">VHDL Language Settings</a></li><li><a href="#library-management" class="table-of-contents__link toc-highlight">Library Management</a></li><li><a href="#stage-specific-options" class="table-of-contents__link toc-highlight">Stage-Specific Options</a></li><li><a href="#simulation-settings" class="table-of-contents__link toc-highlight">Simulation Settings</a></li><li><a href="#waveform-output" class="table-of-contents__link toc-highlight">Waveform Output</a></li><li><a href="#debug-and-analysis" class="table-of-contents__link toc-highlight">Debug and Analysis</a></li><li><a href="#error-and-warning-handling" class="table-of-contents__link toc-highlight">Error and Warning Handling</a></li><li><a href="#assertions-and-verification" class="table-of-contents__link toc-highlight">Assertions and Verification</a></li><li><a href="#ieee-standards-compliance" class="table-of-contents__link toc-highlight">IEEE Standards Compliance</a></li><li><a href="#advanced-features" class="table-of-contents__link toc-highlight">Advanced Features</a></li></ul></li><li><a href="#usage-examples" class="table-of-contents__link toc-highlight">Usage Examples</a><ul><li><a href="#basic-workflow-example" class="table-of-contents__link toc-highlight">Basic Workflow Example</a></li></ul></li><li><a href="#troubleshooting" class="table-of-contents__link toc-highlight">Troubleshooting</a><ul><li><a href="#common-issues-and-solutions" class="table-of-contents__link toc-highlight">Common Issues and Solutions</a></li><li><a href="#performance-tips" class="table-of-contents__link toc-highlight">Performance Tips</a></li><li><a href="#getting-help" class="table-of-contents__link toc-highlight">Getting Help</a></li></ul></li><li><a href="#additional-resources" class="table-of-contents__link toc-highlight">Additional Resources</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/terosHDLdoc/docs/intro">Documentation</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://app.gitter.im/#/room/#TerosHDL_community:gitter.im" target="_blank" rel="noopener noreferrer" class="footer__link-item">Gitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/TerosTechnology/vscode-terosHDL" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 TerosHDL.</div></div></div></footer></div>
+</body>
+</html>
