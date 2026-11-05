@@ -39,6 +39,8 @@ Important fields:
 - `seed`: Random seed for reproducible P&R.
 - `extra_options`: Extra nextpnr flags (one per entry).
 
+![alt text](../../static/img/nextpnr/tool_nextpnr.png)
+
 ## Available tasks
 
 When `target_family` is `ice40` or `ecp5`, TerosHDL shows a Place and Route task group with:
@@ -67,6 +69,8 @@ When `target_family` is `generic`, only Place & Route is available.
 - ECP5: runs `ecppack` and writes `nextpnr_out.bit`.
 - Generic: not supported.
 
+![alt text](../../static/img/nextpnr/bitsream_active.png)
+
 ### Open GUI
 
 - Opens nextpnr GUI mode with the synthesized netlist.
@@ -76,6 +80,8 @@ When `target_family` is `generic`, only Place & Route is available.
 
 - Opens the parsed information from `nextpnr_report.json`.
 - If the report is missing, run Place & Route first.
+
+![alt text](../../static/img/nextpnr/utilization_timingreport.png)
 
 ## Typical workflow
 
